@@ -7,7 +7,7 @@
 <br><br><br><br>
 <body>
   <font face = "Verdana">
-  <div style="margin:50px 0">
+  <div style="margin:0px 0">
     <center>
       <h1>Sismo 19 de septiembre</h1>
       <div style="display:inline-block;width:20px;height:10px; background-color:red;"></div> Derrumbe
@@ -17,8 +17,16 @@
       <div style="display:inline-block;width:20px;height:10px; background-color:LightGreen ;"></div> Albergue
     </center>
   </div>
-  </font>
-  <iframe style="display:block;margin:40px auto;" src="{% url 'mapa' %}" height="60%" width="80%"></iframe>
+  <iframe style="display:block;margin:20px auto;" src="{% url 'mapa' %}" height="60%" width="80%"></iframe>
+  <div style="width:300px; text-align:center; margin:0px auto;">¿Quieres ayudar?<br /><br />
+      <input style="width:200px; background-color:#303030;color:white;" type="button" value="Cómo Ayudar Mx" onclick="window.location.href='https://comoayudar.mx'" />
+      <input style="width:200px; background-color:#404040;color:white;" type="button" value="WishList Amazon" onclick="window.location.href='https://www.amazon.com.mx/b?ie=UTF8&node=17290014011&pf_rd_p=76aec45f-a7fa-4330-9eac-77b7ae0b8bf3&pf_rd_r=6QR31H1ZGWQGPYKJ9X65'" />
+      <input style="width:200px; background-color:#505050;color:white;" type="button" value="PayPal Cruz Roja" onclick="window.location.href='https://www.paypal.com/mx/webapps/mpp/donar/institution?name=redCross'" />
+  </div>
+  <br />
+  <br />
+  <br />
+    </font>
 </body>
 <img scr='{% static "pulses.png" %}'/>
 </html>
