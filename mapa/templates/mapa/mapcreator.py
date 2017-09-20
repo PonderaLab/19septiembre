@@ -39,9 +39,9 @@ m = folium.Map(location=c_coords, zoom_start=12)
 #folium.GeoJson(xolo_gdf).add_to(m)
 
 #logo = CustomIcon('wax_logo.png', icon_size=(20, 20))
+
 for id, r in tmp_df.iterrows():
-    icon = folium.Icon(color='white', icon_color=r[
-                       'style']['color'], icon='star')
+    icon = folium.Icon(color='red',icon='none')
 
     marker = folium.Marker([r['lat'], r['lon']], popup=r[
                            'suc'].title(),
