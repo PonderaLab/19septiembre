@@ -23,15 +23,26 @@ crs = {'init': 'epsg:4326'}
 
 c_coords = (19.419762, -99.188076)
 
-m = folium.Map(location=c_coords, zoom_start=12)
+m = folium.Map(location=c_coords, zoom_start=11)
 
 #folium.GeoJson(xolo_gdf).add_to(m)
 
 #logo = CustomIcon('wax_logo.png', icon_size=(20, 20))
 
 for id, r in tmp_df.iterrows():
-    icon = folium.Icon(color='red',icon='none')
-
+    if r['id'] == 'Derrumbe':
+        color = 'red'
+    elif r['id'] == 'Acopio':
+        color = 'blue'
+    elif r['id'] == 'Albergue':
+        color = 'lightgreen'
+    elif r['id'] == 'Danos':
+        color = 'yellow'
+    elif r['id'] == 'Dano mayor':
+        color = 'orange'
+    else:
+        color = 'white'
+    icon = folium.Icon(color=color,icon='none')
     marker = folium.Marker([r['lat'], r['lon']], popup=r[
                            'suc'].title(),
                            icon=icon,

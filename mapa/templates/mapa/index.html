@@ -2,9 +2,14 @@
 <body>
   <div style="margin:70px 0">
     <center>
-      Mapa de Daños
+      <h1>Sismo 19 de septiembre</h1>
+      <div style="display:inline-block;width:20px;height:10px; background-color:red;"></div> Derrumbes
+      <div style="display:inline-block;width:20px;height:10px; background-color:orange;"></div> Daños Graves
+      <div style="display:inline-block;width:20px;height:10px; background-color:yellow;"></div> Daños
+      <div style="display:inline-block;width:20px;height:10px; background-color:lightblue;"></div> Centros de Acopio
+      <div style="display:inline-block;width:20px;height:10px; background-color:green;"></div> Albergues
     </center>
   </div>
-  <iframe style="display:block;margin:100px auto;" src="{% url 'mapa' %}" height="500" width="500"></iframe>
+  <iframe style="display:block;margin:100px auto;" src="{% url 'mapa' %}" height="80%" width="80%"></iframe>
 </body>
 </html>
