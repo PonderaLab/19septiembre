@@ -30,16 +30,18 @@ m = folium.Map(location=c_coords, zoom_start=11)
 #logo = CustomIcon('wax_logo.png', icon_size=(20, 20))
 
 for id, r in tmp_df.iterrows():
+    color = 'white'
     if r['id'] == 'Derrumbe':
         color = 'red'
+    elif r['id'] == 'Dano mayor':
+        color = 'orange'
+    elif r['id'] == 'Danos':
+        color = 'lightred'
     elif r['id'] == 'Acopio':
         color = 'blue'
     elif r['id'] == 'Albergue':
-        color = 'lightgreen'
-    elif r['id'] == 'Danos':
-        color = 'yellow'
-    elif r['id'] == 'Dano mayor':
-        color = 'orange'
+        color = 'green'
+
     else:
         color = 'white'
     icon = folium.Icon(color=color,icon='none')
