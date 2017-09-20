@@ -6,4 +6,6 @@ urlpatterns = [
         url(r'^$', views.index),
         url(r'^mapa/', TemplateView.as_view(template_name="mapa/mapa.html"),
                    name='mapa'),
+        url(r'^heatmap/', TemplateView.as_view(template_name="mapa/heatmap.html"),
+                   name='heatmap'),
     ]
