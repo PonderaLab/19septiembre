@@ -5,7 +5,7 @@ import pandas as pd
 import geopandas as gpd
 
 
-tmp_df = pd.read_csv('test_db.csv', dtype={
+tmp_df = pd.read_csv('db_all_db.csv', dtype={
                      'store_point': str, 'geometry': str})
 tmp_df.geometry = tmp_df.geometry.map(lambda x: loads(x))
 
