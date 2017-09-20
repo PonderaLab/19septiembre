@@ -1,11 +1,10 @@
 import pandas as pd
-import numpy as np
 import folium
 from folium import plugins
 import csv
 
 
-def export_coordsheatmap(arg):
+def export_coordsheatmap():
     d = pd.read_csv('db_all_db.csv.csv')
     c1 = d.id.isin(['Acopio', 'Albergue', 'AcopioN'])
     coords = d[~c1].store_point.str.extract('(-*\d+\.\d+) (-*\d+\.\d+)')
@@ -16,7 +15,7 @@ def export_coordsheatmap(arg):
 def export_heatmap():
     c = (19.419762, -99.188076)
     heatmap_map = folium.Map(location=c, zoom_start=12)
-    f = open('coords.csv', 'r')
+    f = open('coordsheat.csv', 'r')
     reader = csv.DictReader(f)
     data = []
     for row in reader:
