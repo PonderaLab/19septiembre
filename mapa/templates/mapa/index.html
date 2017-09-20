@@ -1,6 +1,9 @@
+{% load static %}
+
 <html>
 <body>
-  <div style="margin:70px 0">
+  <font face = "Verdana">
+  <div style="margin:50px 0">
     <center>
       <h1>Sismo 19 de septiembre</h1>
       <div style="display:inline-block;width:20px;height:10px; background-color:red;"></div> Derrumbe
@@ -10,6 +13,8 @@
       <div style="display:inline-block;width:20px;height:10px; background-color:LightGreen ;"></div> Albergue
     </center>
   </div>
-  <iframe style="display:block;margin:100px auto;" src="{% url 'mapa' %}" height="80%" width="80%"></iframe>
+  </font>
+  <iframe style="display:block;margin:40px auto;" src="{% url 'mapa' %}" height="60%" width="80%"></iframe>
 </body>
+<img scr='{% static "pulses.png" %}'/>
 </html>
