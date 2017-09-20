@@ -53,4 +53,4 @@ for id, r in tmp_df.iterrows():
     m.add_child(marker)
 #
 # folium.LayerControl().add_to(m)
-m.save('mapa_t1.html')
+m.save('mapa.html')
