@@ -46,7 +46,7 @@ for id, r in tmp_df.iterrows():
     elif r['id'] == 'Hospital':
         color = 'white'
     elif r['id'] == 'AcopioM':
-        color = 'ligthblue'
+        color = 'lightblue'
 
     else:
         color = 'white'
