@@ -78,21 +78,21 @@
 77,AcopioN,"Xochimilco. Palas, picos, mazos, carretillas, cuerdas, tapabocas, plantas de luz, linternas, pilas, gasolina.",POINT (-99.253920 19.253920),-99.25392,19.25392
 78,AcopioN,"Estadio Olimpico. Medicamento, gasas, agua oxigenada, camillas, colchonetas, brocas de media para concreto, palas, picos, gasolina y disel para plantas y maquinas, cascos, chalecos de seguridad, carretillas para escombro, rodilleras, linternas y pilas para linternas.",POINT (-99.192188 19.332257),-99.192188,19.332257
 79,AcopioN,"UAM Xochimilco. Se requieren viveres, material de curacion y herramientas. Canal de Miramontes 3855, Ex de San Juan de Dios, 14387 Ciudad de Mexico",POINT (-99.137572 19.286526),-99.137572,19.286526
-80,AcopioM,"Ensenada 22, Hipodromo. Atencion a MASCOTAS.",,-99.17453,19.410511
-81,Acopio,Colegio Aleman 5501.,,-99.083754,19.243672
-82,Acopio,Acopio para MORELOS y PUEBLA. Avenida Hacienda de Guaracha 121,,-99.225126,19.489296
-83,Hospital,Medica Sur. Sillon de Mendoza 100. Apoyo sin costo para primeros auxilios y apoyo psicologico.,,-99.161223,19.297202
-84,Hospital,Medica Sur Puente de Piedra 150. Serivicio de urgencias sin costo a lesionados por el sismo,,-99.161712,19.297626
-85,Hospital,Hospital infantil. Atencion medica y quirurgica,,-99.186099,19.304984
-86,Hospital,Hospital 20 de noviembre. 120 camas para adultos y 20 para ninos. Medicos todas especialidades,,-99.1711181,19.372169
-87,Hospital,Sedna Hospital. Hemodialisis a pacientes que quedaron fuera de atencion por sismo.,,-99.174048,19.303571
-88,AcopioN,"Hospital Nacional de Peditria. SE NECESITA agua embotellada, papel higienico, leche en polvo, jeringas de 5 y 10 ml, torundas, alcohol, cateter para oxigeno con tubo de conex. Canula nasal de plastico de diamtro interno de 2 ml, extensiones de luz, detergente y comida para la noche",,-99.185302,19.306387
-89,Hospital,Magalena Salinas. Sangre. Dispuesto a recibir pacientes graves,,-99.138001,19.485813
-90,Hospital,"Cruz Roja Mexicana Polanco. NO necesita voluntarios, solo productos medicos.",,-99.208989,19.437879
-91,AcopioN,"Bosque de Enebros 57. Colecta para ninos de OAXACA. Hasta 8pm Ropa, panales, y juguetes.",,-99.255608,19.392288
-92,AcopioN,"Amores 1444. Lamparas, medicinas y voluntarios para relevar el turno de la NOCHE. Masking tape para cajas.",,-99.169124,19.372438
-93,AcopioN,"Lomas de Sotelo. Puerta 2. Hasta las 7pm. Colecta de medicinas, voluntarios NO. Para CHIAPAS, OAXACA y MORELOS",,-99.226115,19.441234
-94,Urgente,Eje2 Pte y Escocia. Mototrozadora,,-99.163918,19.387979
-95,AcopioN,"Sistema Nacional DIF. Voluntarios, alimentos y medicinas. MOTOS y autos para repartir.",,-99.158421,19.367112
-96,AcopioN,"Teatro Angela Peralta. Hasta 7pm. Llenar camiones para Puebla y Morelos. Medicamentos, material de curacion, palas, picos, cascos, guantes de carnaza, tijeras, pilas, linternas, material para cortar, cinceles, lentes de seguiridad, agua, agua salina, alimento para mascotas, frazdas, extintores.",,-99.194184,19.429443
-97,AcopioN,"Etna 32. Para CHIAPAS. Palas, picos, lamparas, carretillas, extensiones, alimentos no perecederos, casas de campana, carretillas, sleeping bags. NO SE ACEPTA ROPA, MEDICINA NI AGUA.",,-99.194803,19.36283
+80,AcopioM,"Ensenada 22, Hipodromo. Atencion a MASCOTAS.",POINT (-99.17453 19.410511),-99.17453,19.410511
+81,Acopio,Colegio Aleman 5501.,POINT (-99.083754 19.243672),-99.083754,19.243672
+82,Acopio,Acopio para MORELOS y PUEBLA. Avenida Hacienda de Guaracha 121,POINT (-99.225126 19.489296),-99.225126,19.489296
+83,Hospital,Medica Sur. Sillon de Mendoza 100. Apoyo sin costo para primeros auxilios y apoyo psicologico.,POINT (-99.161223 19.297202),-99.161223,19.297202
+84,Hospital,Medica Sur Puente de Piedra 150. Serivicio de urgencias sin costo a lesionados por el sismo,POINT (-99.161712 19.297626),-99.161712,19.297626
+85,Hospital,Hospital infantil. Atencion medica y quirurgica,POINT (-99.186099 19.304984),-99.186099,19.304984
+86,Hospital,Hospital 20 de noviembre. 120 camas para adultos y 20 para ninos. Medicos todas especialidades,POINT (-99.1711181 19.372169),-99.1711181,19.372169
+87,Hospital,Sedna Hospital. Hemodialisis a pacientes que quedaron fuera de atencion por sismo.,POINT (-99.174048 19.303571),-99.174048,19.303571
+88,AcopioN,"Hospital Nacional de Peditria. SE NECESITA agua embotellada, papel higienico, leche en polvo, jeringas de 5 y 10 ml, torundas, alcohol, cateter para oxigeno con tubo de conex. Canula nasal de plastico de diamtro interno de 2 ml, extensiones de luz, detergente y comida para la noche",POINT (-99.185302 19.306387),-99.185302,19.306387
+89,Hospital,Magalena Salinas. Sangre. Dispuesto a recibir pacientes graves,POINT (-99.138001 19.485813),-99.138001,19.485813
+90,Hospital,"Cruz Roja Mexicana Polanco. NO necesita voluntarios, solo productos medicos.",POINT (-99.208989 19.437879),-99.208989,19.437879
+91,AcopioN,"Bosque de Enebros 57. Colecta para ninos de OAXACA. Hasta 8pm Ropa, panales, y juguetes.",POINT (-99.255608 19.392288),-99.255608,19.392288
+92,AcopioN,"Amores 1444. Lamparas, medicinas y voluntarios para relevar el turno de la NOCHE. Masking tape para cajas.",POINT (-99.169124 19.372438),-99.169124,19.372438
+93,AcopioN,"Lomas de Sotelo. Puerta 2. Hasta las 7pm. Colecta de medicinas, voluntarios NO. Para CHIAPAS, OAXACA y MORELOS",POINT (-99.226115 19.441234),-99.226115,19.441234
+94,Urgente,Eje2 Pte y Escocia. Mototrozadora,POINT (-99.163918 19.387979),-99.163918,19.387979
+95,AcopioN,"Sistema Nacional DIF. Voluntarios, alimentos y medicinas. MOTOS y autos para repartir.",POINT (-99.158421 19.367112),-99.158421,19.367112
+96,AcopioN,"Teatro Angela Peralta. Hasta 7pm. Llenar camiones para Puebla y Morelos. Medicamentos, material de curacion, palas, picos, cascos, guantes de carnaza, tijeras, pilas, linternas, material para cortar, cinceles, lentes de seguiridad, agua, agua salina, alimento para mascotas, frazdas, extintores.",POINT (-99.194184 19.429443),-99.194184,19.429443
+97,AcopioN,"Etna 32. Para CHIAPAS. Palas, picos, lamparas, carretillas, extensiones, alimentos no perecederos, casas de campa–a, carretillas, sleeping bags. NO SE ACEPTA ROPA, MEDICINA NI AGUA.",POINT (-99.194803 19.36283),-99.194803,19.36283
