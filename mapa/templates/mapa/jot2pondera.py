@@ -52,29 +52,25 @@ def jot2pondera():
     df.loc[:, 'suc'] = ''
 
     for i, d in df.iterrows():
-        if str(d['tipo']) == 'Acopio':
-            s = 'Se necesita: ' + ' '.join([str(d['acopio']), str(d['necesita'])])
-        elif str(d['tipo']) == 'Acopio Hospital':
+        if str(d['tipo'].encode('utf-8')) == 'Acopio':
+            s = 'Se necesita: ' + ' '.join([str(d['acopio'].encode('utf-8')), str(d['necesita'].encode('utf-8'))])
+        elif str(d['tipo'].encode('utf-8')) == 'Acopio Hospital':
             s = 'Se necesita: ' + ' '.join([str(d['hospital']), str(d['necesita'])])
-        elif str(d['tipo']) == 'Requiero Voluntarios':
+        elif str(d['tipo'].encode('utf-8')) == 'Requiero Voluntarios':
             s = 'Se necesitan ' + str(d['voluntarios']) + \
                 ' voluntarios para realizar: ' + str(d['necesita'])
-        elif str(d['tipo']) == 'Dar de Alta Albergue':
+        elif str(d['tipo'].encode('utf-8')) == 'Dar de Alta Albergue':
             s = str(d['nombre_albergue']) + ' - características: ' + str(d['albergue'])
-        elif str(d['tipo']) == 'Dar de Alta Derrumbe':
+        elif str(d['tipo'].encode('utf-8')) == 'Dar de Alta Derrumbe':
             s = '<br>Derrumbe'
-        elif str(d['tipo']) == 'Dar de Alta Daños':
+        elif str(d['tipo'].encode('utf-8')) == 'Dar de Alta Daños':
             s = '<br>Daño'
-        elif str(d['tipo']) == 'Requiero de Revisión en mi Inmueble':
+        elif str(d['tipo'].encode('utf-8')) == 'Requiero de Revisión en mi Inmueble':
             s = 'Descripción de daños: ' + str(d['inmueble'])
         s = s.replace('nan', '')
         df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s)
 
-    if exists('db_all_db.csv'):
-        df.to_csv('db_all_db.csv', encoding='utf-8', mode='a')
-    else:
-        df.to_csv('db_all_db.csv', encoding='utf-8')
-
+    df.to_csv('db_jot.csv',mode = 'w', encoding='utf-8')
 
 if __name__ == '__main__':
     jot2pondera()
