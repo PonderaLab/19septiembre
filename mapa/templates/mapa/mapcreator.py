@@ -22,13 +22,13 @@ def mapcreator():
 
     m = folium.Map(location=c_coords, zoom_start=6)
 
-    fg_acopio = FeatureGroup(name='Acopio')
-    fg_achosp = FeatureGroup(name='Acopio Hospital')
-    fg_reqvol = FeatureGroup(name='Requiero Voluntarios')
-    fg_alberg = FeatureGroup(name='Dar de Alta Albergue')
-    fg_derrum = FeatureGroup(name='Dar de Alta Derrumbe')
-    fg_danios = FeatureGroup(name=u'Dar de Alta Daños')
-    fg_revinm = FeatureGroup(name=u'Requiero de Revisión en mi Inmueble')
+    fg_acopio = FeatureGroup(name='Acopios')
+    fg_achosp = FeatureGroup(name='Acopios Hospitales')
+    fg_reqvol = FeatureGroup(name='Requieren Voluntarios')
+    fg_alberg = FeatureGroup(name='Albergues')
+    fg_derrum = FeatureGroup(name='Derrumbes')
+    fg_danios = FeatureGroup(name=u'Daños')
+    fg_revinm = FeatureGroup(name=u'Requieren revisión de inmueble')
     fg_blanco = FeatureGroup(name='Hospitales')
 
     for id_, r in tmp_df.iterrows():
