@@ -1,0 +1,132 @@
+,id,suc,store_point,lon,lat
+1,Derrumbe,Miguel Negrete y Ninos Heroes,POINT (-99.1484456 19.3877398),-99.1484456,19.3877398
+2,Derrumbe,Guadalupe Ramirez y 16 sept,POINT (-99.1324038 19.2724324),-99.1324038,19.2724324
+3,Derrumbe,Tec de Monterrey CDMX,POINT (-99.1383662 19.2838273),-99.1383662,19.2838273
+4,Derrumbe,Acoxpa y trancas,POINT (-99.1255281 19.2920581),-99.1255281,19.2920581
+5,Derrumbe,Av Mexico y Cuahutemoc,POINT (-99.1061904 19.2933211),-99.1061904,19.2933211
+6,Derrumbe,Escuela Enrique Rebsamen,POINT (-99.1327225 19.296988),-99.1327225,19.296988
+7,Derrumbe,Calzada del hueso y rancho del arco,POINT (-99.1251791 19.3033546),-99.1251791,19.3033546
+8,Derrumbe,10 de abril y anenecuilco,POINT (-99.1111852 19.3165437),-99.1111852,19.3165437
+9,Derrumbe,Escuela Montesqueu,POINT (-99.1368913 19.3165082),-99.1368913,19.3165082
+10,Derrumbe,Soriana Taxquena,POINT (-99.1437585 19.3428605),-99.1437585,19.3428605
+11,Derrumbe,Puebla y Orizaba,POINT (-99.146265 19.3877512),-99.146265,19.3877512
+12,Derrumbe,Gabriel Mancera y Eugenia,POINT (-99.1652675 19.3866975),-99.1652675,19.3866975
+13,Derrumbe,Patricio Sans y California,POINT (-99.1726883 19.3816149),-99.1726883,19.3816149
+14,Derrumbe,Av Coyoacan y Providencia,POINT (-99.167299 19.3974597),-99.167299,19.3974597
+15,Derrumbe,Amores y Viaducto,POINT (-99.162399 19.4017452),-99.162399,19.4017452
+16,Derrumbe,Baja California y Torreon,POINT (-99.1628185 19.4050345),-99.1628185,19.4050345
+17,Derrumbe,Eje 2 y Amsterdam,POINT (-99.1670705 19.4128675),-99.1670705,19.4128675
+18,Derrumbe,Alvaro Obregon y Valladolid,POINT (-99.1665561 19.4169795),-99.1665561,19.4169795
+19,Derrumbe,Mina 16 y 2 de abril,POINT (-99.1418991 19.4383443),-99.1418991,19.4383443
+20,Derrumbe,Lerdo y Magnolia,POINT (-99.1463198 19.4427896),-99.1463198,19.4427896
+21,Derrumbe,Comonfort y Jaime Nuno,POINT (-99.1372099 19.4456975),-99.1372099,19.4456975
+22,Derrumbe,Laguna de terminos y lago cuitzeo,POINT (-99.1765822 19.4418086),-99.1765822,19.4418086
+23,Derrumbe,Sierravista y Ticoman,POINT (-99.12286 19.493795),-99.12286,19.493795
+24,Danos,Hospital General Dr. Manuel Gea,POINT (-99.1642673 19.290087),-99.1642673,19.290087
+25,Danos,Calzada de la viga y Anastasio Sarabia,POINT (-99.1227088 19.3617115),-99.1227088,19.3617115
+26,Danos,Residencial Miguel Negrete y Ni_os H_roes,POINT (-99.1484456 19.3877398),-99.1484456,19.3877398
+27,Danos,Residencial Xola y Bolivar,POINT (-99.1462771 19.3948528),-99.1462771,19.3948528
+28,Danos,Patricio Sans y Torres Adalid,POINT (-99.1726936 19.3901974),-99.1726936,19.3901974
+29,Danos,Patricio Sans 612,POINT (-99.1707051 19.3915996),-99.1707051,19.3915996
+30,Danos,Edificio Servicio Nacional del Empleo,POINT (-99.1634051 19.3977465),-99.1634051,19.3977465
+31,Danos,Chihuahua y Orizaba,POINT (-99.1606335 19.4172789),-99.1606335,19.4172789
+32,Danos,Puebla y Medellin,POINT (-99.1683086 19.4214881),-99.1683086,19.4214881
+33,Danos,Genova,POINT (-99.1664587 19.4267575),-99.1664587,19.4267575
+34,Danos,San Antonio Abad y Chavero,POINT (-99.1366756 19.4170186),-99.1366756,19.4170186
+35,Danos,Vallarta e Ignacio Ramirez,POINT (-99.1567542 19.4347052),-99.1567542,19.4347052
+36,Dano mayor,Residencial Tlacoquemecatl,POINT (-99.1746147 19.3780309),-99.1746147,19.3780309
+37,Dano mayor,Baja California y Manzanillo,POINT (-99.1677978 19.4080493),-99.1677978,19.4080493
+38,Dano mayor,Republica de Argentina y el Carmen,POINT (-99.1304957 19.4372656),-99.1304957,19.4372656
+39,Dano mayor,Edificio SNTE,POINT (-99.1311086 19.4372966),-99.1311086,19.4372966
+40,Dano mayor,Aeropuerto Internacional de la CDMX,POINT (-99.0865854 19.4240967),-99.0865854,19.4240967
+41,Dano mayor,Fuente del Pescador,POINT (-99.2567572 19.4006283),-99.2567572,19.4006283
+42,Albergue,Villa Mujeres,POINT (-99.155068 19.155068),-99.155068,19.155068
+43,Albergue,Castilla Oriente,POINT (-99.1845903 19.4838002),-99.1845903,19.4838002
+44,Albergue,Casa del peregrino,POINT (-99.11004 19.483316),-99.11004,19.483316
+45,Albergue,Preparatoria Popular Martires de Tlatelolco,POINT (-99.1617717 19.4553387),-99.1617717,19.4553387
+46,Albergue,Deportivo Plan Sexenal,POINT (-99.173115 19.453989),-99.173115,19.453989
+47,Albergue,Deportivo Pavon,POINT (-99.193352 19.448796),-99.193352,19.448796
+48,Albergue,Deportivo Cuautemoc,POINT (-99.1535962 19.4424244),-99.1535962,19.4424244
+49,Albergue,Plaza del Estudiante,POINT (-99.1306164 19.4406296),-99.1306164,19.4406296
+50,Albergue,Deportivo Mina,POINT (-99.1502748 19.4397608),-99.1502748,19.4397608
+51,Albergue,Museo parque lira,POINT (-99.188787 19.405886),-99.188787,19.405886
+52,Albergue,Club junior,POINT (-99.1736609 19.4048648),-99.1736609,19.4048648
+53,Albergue,Centro Social Fraccionamiento Coyuya,POINT (-99.116757 19.401163),-99.116757,19.401163
+54,Albergue,Casi coruna jovenes,POINT (-99.131704 19.398999),-99.131704,19.398999
+55,Albergue,Casa de adulto mayor Elena Poniatowska,POINT (-99.06866 19.414111),-99.06866,19.414111
+56,Albergue,Sala de armas de la magadalena mixihuca,POINT (-99.091637 19.407581),-99.091637,19.407581
+57,Albergue,Casa de la mujer mariposas iztacalco,POINT (-99.081541 19.393284),-99.081541,19.393284
+58,Albergue,Deportivo Alvaro Obregon,POINT (-99.199703 19.387702),-99.199703,19.387702
+59,Albergue,Deportivo Benito Juarez,POINT (-99.158393 19.371305),-99.158393,19.371305
+60,Albergue,Deportivo Rosario Iglesias,POINT (-99.121312 19.303176),-99.121312,19.303176
+61,Albergue,Villa Olimpica,POINT (-99.1881 19.296697),-99.1881,19.296697
+62,Albergue,Deportivo cuajimalpa,POINT (-99.289306 19.362448),-99.289306,19.362448
+63,Albergue,Gimnasio G3,POINT (-99.199445 19.388198),-99.199445,19.388198
+64,AcopioN,"Cda. Rufina 40. Centro de acopio para PUEBLA y MORELOS. Equipo de curacion, vendas, gasas, herramientas, despensas. De 8am a 6pm",POINT (-99.188368 19.402347),-99.188368,19.402347
+65,AcopioN,"Sinaloa 216, Roma Nte. Salen camionetas a Morelos entre 12 y 1 horas. Hay espacio por si alguien desea ir.",POINT (-99.173515 19.419551),-99.173515,19.419551
+66,AcopioN,"Division del Norte y Eugenia. Material de curacion y personal medico. Se aceptan desayunos. Favor de NO IR A EJE 5 y Division, mucha gente estorba las maquinas. 11 30 am",POINT (-99.159375 19.379855),-99.159375,19.379855
+67,Albergue,Casa hogar Renato Leduc 82. Se solicitan viveres. Tel 56062376,POINT (-99.16361 19.294338),-99.16361,19.294338
+68,Acopio,Parque Espana. Relevo de voluntarios para sacar escombros,POINT (-99.171365 19.414102),-99.171365,19.414102
+69,AcopioN,"Tec de Monterrey Campus Santa Fe. Medicamentos, material primeros auxilios y construccion.",POINT (-99.25929 19.359546),-99.25929,19.359546
+70,Acopio,Farmacia Paris. FAVOR DE DAR DIFUSION a este acopio,POINT (-99.136542 19.43183),-99.136542,19.43183
+71,Albergue,"5 de Febrero 171, Obrera. Espacio para mascotas, alimentos, camas. Se pueden banar.",POINT (-99.135781 19.421593),-99.135781,19.421593
+72,Acopio,Centro de acopio Univerix en Av Contreras 387,POINT (-99.215008 19.328532),-99.215008,19.328532
+73,AcopioN,"Zocalo. Cascos, picos, palas, martillos, marros, arneses, clavos de 2, diesel.",POINT (-99.133237 19.432834),-99.133237,19.432834
+74,AcopioN,"Alvaro Obregon 282. Botas, casco, cubrebocas y guantes. 9 am",POINT (-99.168415 19.417036),-99.168415,19.417036
+75,AcopioN,Escuela Rebsamen. Interpretes de Japones. 1100am,POINT (-99.130564 19.29683),-99.130564,19.29683
+76,AcopioN,Calle Monaco y Bretana. Alimentos no perecederos. Ya NO se necesita gente,POINT (-99.138442 19.373595),-99.138442,19.373595
+77,AcopioN,"Xochimilco. Palas, picos, mazos, carretillas, cuerdas, tapabocas, plantas de luz, linternas, pilas, gasolina.",POINT (-99.253920 19.253920),-99.25392,19.25392
+78,AcopioN,"Estadio Olimpico. Medicamento, gasas, agua oxigenada, camillas, colchonetas, brocas de media para concreto, palas, picos, gasolina y disel para plantas y maquinas, cascos, chalecos de seguridad, carretillas para escombro, rodilleras, linternas y pilas para linternas.",POINT (-99.192188 19.332257),-99.192188,19.332257
+79,AcopioN,"UAM Xochimilco. Se requieren viveres, material de curacion y herramientas. Canal de Miramontes 3855, Ex de San Juan de Dios, 14387 Ciudad de Mexico",POINT (-99.137572 19.286526),-99.137572,19.286526
+80,Dano mayor,"Iglesia de Santo Tomas Chautla: sin detalles",POINT (-98.15452390000002 18.963057) , -98.15452390000002,18.963057
+81,Dano mayor,"Primaria Progreso: sin detalles",POINT (-98.15429 18.961048) , -98.15429,18.961048
+82,Dano mayor,"Centro de Integral de Servicios (CIS), Tepexi de Rodrguez: sin detalles",POINT (-97.9269104 18.5784204) , -97.9269104,18.5784204
+83,Dano mayor,"Ex Convento Franciscano: sin detalles",POINT (-97.73020150000002 18.8864014) , -97.73020150000002,18.8864014
+84,Dano mayor,"Universidad Politecnica de Amozoc: sin detalles",POINT (-98.04196530000002 19.0743368) , -98.04196530000002,19.0743368
+85,Dano mayor,"Iglesia de los Remedios: sin detalles",POINT (-98.30178699999999 19.058054) , -98.30178699999999,19.058054
+86,Dano mayor,"Parroquia de San Pedro Cholula: sin detalles",POINT (-98.30634250000003 19.0636282) , -98.30634250000003,19.0636282
+87,Dano mayor,"Iglesia de San Miguelito: sin detalles",POINT (-98.3184685 19.0293809) , -98.3184685,19.0293809
+88,Dano mayor,"Convento de San Gabriel: sin detalles",POINT (-98.30463220000001 19.0622259) , -98.30463220000001,19.0622259
+89,Dano mayor,"Parroquia de Santa Mara de la Natividad: sin detalles",POINT (-98.43368929999997 18.909612) , -98.43368929999997,18.909612
+90,Dano mayor,"Ayuntamiento Constitucional de Atlixco: sin detalles",POINT (-98.43397329999999 18.9091843) , -98.43397329999999,18.9091843
+91,Dano mayor,"Ex-convento del Carmen: sin detalles",POINT (-98.43283529999997 18.9088008) , -98.43283529999997,18.9088008
+92,Dano mayor,"Iglesia de Santiago Apostol: sin detalles",POINT (-98.55347540000002 18.5452973) , -98.55347540000002,18.5452973
+93,Dano mayor,"Parroquia Divino Salvador: sin detalles",POINT (-98.09536809999997 19.0472208) , -98.09536809999997,19.0472208
+94,Dano mayor,"Altepexi: sin detalles",POINT (-97.29822239999999 18.3693599) , -97.29822239999999,18.3693599
+95,Dano mayor,"Hospital General de Acatlan: sin detalles",POINT (-98.05637589999998 18.1860514) , -98.05637589999998,18.1860514
+96,Dano mayor,"Centro Integral de Servicios Acatlan de Osorio: sin detalles",POINT (-98.0526681 18.1938026) , -98.0526681,18.1938026
+97,Dano mayor,"Centro Escolar Pdte. Lic. Benito Juarez: sin detalles",POINT (-98.0437571 18.2030203) , -98.0437571,18.2030203
+98,Dano mayor,"Iglesia del Barrio de San Juan Bautista: sin detalles",POINT (-98.04763439999999 18.2009815) , -98.04763439999999,18.2009815
+99,Dano mayor,"Centro de Educacion a Distancia Acatlan de Osorio: sin detalles",POINT (-98.04533000000004 18.19704) , -98.04533000000004,18.19704
+100,Dano mayor,"Santa Ana Coatepec: sin detalles",POINT (-98.43568069999998 18.8363244) , -98.43568069999998,18.8363244
+101,Dano mayor,"Santo Domingo: sin detalles",POINT (-98.46452750000003 18.5990875) , -98.46452750000003,18.5990875
+102,Dano mayor,"Ex-convento de San Miguel Arcangel: sin detalles",POINT (-98.4045208 19.1587804) , -98.4045208,19.1587804
+103,Dano mayor,"San Cristobal Tepontla: sin detalles",POINT (-98.32663960000002 19.0696041) , -98.32663960000002,19.0696041
+104,Dano mayor,"Iglesia de Santa Mara Tonantzintla: sin detalles",POINT (-98.31974120000001 19.0298414) , -98.31974120000001,19.0298414
+105,Dano mayor,"San Francisco: sin detalles",POINT (-98.3087243 19.0221617) , -98.3087243,19.0221617
+106,Dano mayor,"Iglesia de Santo Tomas Chautla: Cuarteaduras en torre y desprendimiento de techo en la cupula",POINT (-98.15452390000002 18.963057) , -98.15452390000002,18.963057
+107,Dano mayor,"Primaria Progreso: sin detalles",POINT (-98.15429 18.961048) , -98.15429,18.961048
+108,Dano mayor,"Centro de Integral de Servicios (CIS), Tepexi de Rodrguez: Desprendimiento de plafon del techo y cristales",POINT (-97.9269104 18.5784204) , -97.9269104,18.5784204
+109,Dano mayor,"Ex Convento Franciscano: Afectacion estructural",POINT (-97.73020150000002 18.8864014) , -97.73020150000002,18.8864014
+110,Dano mayor,"Universidad Politecnica de Amozoc: Afectacion estructural",POINT (-98.04196530000002 19.0743368) , -98.04196530000002,19.0743368
+111,Dano mayor,"Iglesia de los Remedios: Cada de 2 cupulas de las torres",POINT (-98.30178699999999 19.058054) , -98.30178699999999,19.058054
+112,Dano mayor,"Parroquia de San Pedro Cholula: Fracturas en la torre principal",POINT (-98.30634250000003 19.0636282) , -98.30634250000003,19.0636282
+113,Dano mayor,"Iglesia de San Miguelito: sin detalles",POINT (-98.3184685 19.0293809) , -98.3184685,19.0293809
+114,Dano mayor,"Convento de San Gabriel: Cada de las cupulas de las torres",POINT (-98.30463220000001 19.0622259) , -98.30463220000001,19.0622259
+115,Dano mayor,"Parroquia de Santa Mara de la Natividad: sin detalles",POINT (-98.43368929999997 18.909612) , -98.43368929999997,18.909612
+116,Dano mayor,"Ayuntamiento Constitucional de Atlixco: sin detalles",POINT (-98.43397329999999 18.9091843) , -98.43397329999999,18.9091843
+117,Dano mayor,"Ex-convento del Carmen: sin detalles",POINT (-98.43283529999997 18.9088008) , -98.43283529999997,18.9088008
+118,Dano mayor,"Iglesia de Santiago Apostol: Cada de cupula y techo",POINT (-98.55347540000002 18.5452973) , -98.55347540000002,18.5452973
+119,Dano mayor,"Parroquia Divino Salvador: sin detalles",POINT (-98.09536809999997 19.0472208) , -98.09536809999997,19.0472208
+120,Dano mayor,"Altepexi: Cerro desgajado",POINT (-97.29822239999999 18.3693599) , -97.29822239999999,18.3693599
+121,Dano mayor,"Hospital General de Acatlan: sin detalles",POINT (-98.05637589999998 18.1860514) , -98.05637589999998,18.1860514
+122,Dano mayor,"Centro Integral de Servicios Acatlan de Osorio: sin detalles",POINT (-98.0526681 18.1938026) , -98.0526681,18.1938026
+123,Dano mayor,"Centro Escolar Pdte. Lic. Benito Juarez: sin detalles",POINT (-98.0437571 18.2030203) , -98.0437571,18.2030203
+124,Dano mayor,"Iglesia del Barrio de San Juan Bautista: sin detalles",POINT (-98.04763439999999 18.2009815) , -98.04763439999999,18.2009815
+125,Dano mayor,"Centro de Educacion a Distancia Acatlan de Osorio: sin detalles",POINT (-98.04533000000004 18.19704) , -98.04533000000004,18.19704
+126,Dano mayor,"Santa Ana Coatepec: sin detalles",POINT (-98.43568069999998 18.8363244) , -98.43568069999998,18.8363244
+127,Dano mayor,"Santo Domingo: sin detalles",POINT (-98.46452750000003 18.5990875) , -98.46452750000003,18.5990875
+128,Dano mayor,"Ex-convento de San Miguel Arcangel: sin detalles",POINT (-98.4045208 19.1587804) , -98.4045208,19.1587804
+129,Dano mayor,"San Cristobal Tepontla: sin detalles",POINT (-98.32663960000002 19.0696041) , -98.32663960000002,19.0696041
+130,Dano mayor,"Iglesia de Santa Mara Tonantzintla: Cada de la cupula de la entrada principal",POINT (-98.31974120000001 19.0298414) , -98.31974120000001,19.0298414
+131,Dano mayor,"San Francisco: Cada de la decoracion y agrietamiento en el campanario.",POINT (-98.3087243 19.0221617) , -98.3087243,19.0221617
