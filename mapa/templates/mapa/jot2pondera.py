@@ -68,7 +68,7 @@ def jot2pondera():
         elif str(d['tipo'].encode('utf-8')) == 'Requiero de Revisión en mi Inmueble':
             s = 'Descripción de daños: ' + str(d['inmueble'])
         s = s.replace('nan', '')
-        df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s)
+        df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s) + 'Comentarios: ' + str(df.loc[i,'comentario'])
 
     df.to_csv('db_jot.csv',mode = 'w', encoding='utf-8')
 
