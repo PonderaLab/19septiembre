@@ -1,6 +1,7 @@
 import subprocess as sp
 import datetime as dt
-#while True:
+
+while True:
 
 
  try:
@@ -9,10 +10,11 @@ import datetime as dt
       args2 = sp.call("git commit -m 'autocommit mapa.html' ",shell=True)
       dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
       args3 = sp.call("git push origin master",shell=True)
+      args4 = sp.call("git pull",shell=True)
 
-      
+     
 
-        delay(3000)
+        delay(1800000000)
 
 
 
