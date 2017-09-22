@@ -21,9 +21,9 @@ crs = {'init': 'epsg:4326'}
 #xolo_gdf = gpd.GeoDataFrame(tmp_df, crs=crs, geometry=tmp_df.geometry)
 
 
-c_coords = (19.419762, -99.188076)
+c_coords = (19.006626, -98.801924)
 
-m = folium.Map(location=c_coords, zoom_start=11)
+m = folium.Map(location=c_coords, zoom_start=9)
 
 #folium.GeoJson(xolo_gdf).add_to(m)
 
@@ -45,6 +45,8 @@ for id_, r in tmp_df.iterrows():
         color = 'black'
     elif r['tipo'] == 'Urgente':
         color = 'white'
+    elif r['id'] == 'AcopioM':
+        color = 'lightblue'
 
     else:
         color = 'white'

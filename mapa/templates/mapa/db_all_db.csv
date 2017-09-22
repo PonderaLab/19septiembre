@@ -9,112 +9,157 @@
 8,Derrumbe,10 de abril y anenecuilco,POINT (-99.1111852 19.3165437),-99.1111852,19.3165437
 9,Derrumbe,Escuela Montesqueu,POINT (-99.1368913 19.3165082),-99.1368913,19.3165082
 10,Derrumbe,Soriana Taxquena,POINT (-99.1437585 19.3428605),-99.1437585,19.3428605
-11,Danos,Hospital General Dr. Manuel Gea,POINT (-99.1642673 19.290087),-99.1642673,19.290087
-12,Danos,Calzada de la viga y Anastasio Sarabia,POINT (-99.1227088 19.3617115),-99.1227088,19.3617115
-13,Dano mayor,Residencial Tlacoquemecatl,POINT (-99.1746147 19.3780309),-99.1746147,19.3780309
-14,Danos,Residencial Miguel Negrete y Ni_os H_roes,POINT (-99.1484456 19.3877398),-99.1484456,19.3877398
-15,Danos,Residencial Xola y Bolivar,POINT (-99.1462771 19.3948528),-99.1462771,19.3948528
-16,Derrumbe,Puebla y Orizaba,POINT (-99.146265 19.3877512),-99.146265,19.3877512
-17,Derrumbe,Gabriel Mancera y Eugenia,POINT (-99.1652675 19.3866975),-99.1652675,19.3866975
-18,Derrumbe,Patricio Sans y California,POINT (-99.1726883 19.3816149),-99.1726883,19.3816149
-19,Danos,Patricio Sans y Torres Adalid,POINT (-99.1726936 19.3901974),-99.1726936,19.3901974
-20,Danos,Patricio Sans 612,POINT (-99.1707051 19.3915996),-99.1707051,19.3915996
-21,Derrumbe,Av Coyoacan y Providencia,POINT (-99.167299 19.3974597),-99.167299,19.3974597
-22,Danos,Edificio Servicio Nacional del Empleo,POINT (-99.1634051 19.3977465),-99.1634051,19.3977465
-23,Derrumbe,Amores y Viaducto,POINT (-99.162399 19.4017452),-99.162399,19.4017452
-24,Derrumbe,Baja California y Torreon,POINT (-99.1628185 19.4050345),-99.1628185,19.4050345
-25,Dano mayor,Baja California y Manzanillo,POINT (-99.1677978 19.4080493),-99.1677978,19.4080493
-26,Derrumbe,Eje 2 y Amsterdam,POINT (-99.1670705 19.4128675),-99.1670705,19.4128675
-27,Derrumbe,Alvaro Obregon y Valladolid,POINT (-99.1665561 19.4169795),-99.1665561,19.4169795
-28,Danos,Chihuahua y Orizaba,POINT (-99.1606335 19.4172789),-99.1606335,19.4172789
-29,Danos,Puebla y Medellin,POINT (-99.1683086 19.4214881),-99.1683086,19.4214881
-30,Danos,Genova,POINT (-99.1664587 19.4267575),-99.1664587,19.4267575
-31,Danos,San Antonio Abad y Chavero,POINT (-99.1366756 19.4170186),-99.1366756,19.4170186
-32,Dano mayor,Republica de Argentina y el Carmen,POINT (-99.1304957 19.4372656),-99.1304957,19.4372656
-33,Dano mayor,Edificio SNTE,POINT (-99.1311086 19.4372966),-99.1311086,19.4372966
-34,Derrumbe,Mina 16 y 2 de abril,POINT (-99.1418991 19.4383443),-99.1418991,19.4383443
-35,Derrumbe,Lerdo y Magnolia,POINT (-99.1463198 19.4427896),-99.1463198,19.4427896
-36,Derrumbe,Comonfort y Jaime Nuno,POINT (-99.1372099 19.4456975),-99.1372099,19.4456975
-37,Danos,Vallarta e Ignacio Ramirez,POINT (-99.1567542 19.4347052),-99.1567542,19.4347052
-38,Derrumbe,Laguna de terminos y lago cuitzeo,POINT (-99.1765822 19.4418086),-99.1765822,19.4418086
-39,Derrumbe,Sierravista y Ticoman,POINT (-99.12286 19.493795),-99.12286,19.493795
+11,Derrumbe,Puebla y Orizaba,POINT (-99.146265 19.3877512),-99.146265,19.3877512
+12,Derrumbe,Gabriel Mancera y Eugenia,POINT (-99.1652675 19.3866975),-99.1652675,19.3866975
+13,Derrumbe,Patricio Sans y California,POINT (-99.1726883 19.3816149),-99.1726883,19.3816149
+14,Derrumbe,Av Coyoacan y Providencia,POINT (-99.167299 19.3974597),-99.167299,19.3974597
+15,Derrumbe,Amores y Viaducto,POINT (-99.162399 19.4017452),-99.162399,19.4017452
+16,Derrumbe,Baja California y Torreon,POINT (-99.1628185 19.4050345),-99.1628185,19.4050345
+17,Derrumbe,Eje 2 y Amsterdam,POINT (-99.1670705 19.4128675),-99.1670705,19.4128675
+18,Derrumbe,Alvaro Obregon y Valladolid,POINT (-99.1665561 19.4169795),-99.1665561,19.4169795
+19,Derrumbe,Mina 16 y 2 de abril,POINT (-99.1418991 19.4383443),-99.1418991,19.4383443
+20,Derrumbe,Lerdo y Magnolia,POINT (-99.1463198 19.4427896),-99.1463198,19.4427896
+21,Derrumbe,Comonfort y Jaime Nuno,POINT (-99.1372099 19.4456975),-99.1372099,19.4456975
+22,Derrumbe,Laguna de terminos y lago cuitzeo,POINT (-99.1765822 19.4418086),-99.1765822,19.4418086
+23,Derrumbe,Sierravista y Ticoman,POINT (-99.12286 19.493795),-99.12286,19.493795
+24,Danos,Hospital General Dr. Manuel Gea,POINT (-99.1642673 19.290087),-99.1642673,19.290087
+25,Danos,Calzada de la viga y Anastasio Sarabia,POINT (-99.1227088 19.3617115),-99.1227088,19.3617115
+26,Danos,Residencial Miguel Negrete y Ni_os H_roes,POINT (-99.1484456 19.3877398),-99.1484456,19.3877398
+27,Danos,Residencial Xola y Bolivar,POINT (-99.1462771 19.3948528),-99.1462771,19.3948528
+28,Danos,Patricio Sans y Torres Adalid,POINT (-99.1726936 19.3901974),-99.1726936,19.3901974
+29,Danos,Patricio Sans 612,POINT (-99.1707051 19.3915996),-99.1707051,19.3915996
+30,Danos,Edificio Servicio Nacional del Empleo,POINT (-99.1634051 19.3977465),-99.1634051,19.3977465
+31,Danos,Chihuahua y Orizaba,POINT (-99.1606335 19.4172789),-99.1606335,19.4172789
+32,Danos,Puebla y Medellin,POINT (-99.1683086 19.4214881),-99.1683086,19.4214881
+33,Danos,Genova,POINT (-99.1664587 19.4267575),-99.1664587,19.4267575
+34,Danos,San Antonio Abad y Chavero,POINT (-99.1366756 19.4170186),-99.1366756,19.4170186
+35,Danos,Vallarta e Ignacio Ramirez,POINT (-99.1567542 19.4347052),-99.1567542,19.4347052
+36,Dano mayor,Residencial Tlacoquemecatl,POINT (-99.1746147 19.3780309),-99.1746147,19.3780309
+37,Dano mayor,Baja California y Manzanillo,POINT (-99.1677978 19.4080493),-99.1677978,19.4080493
+38,Dano mayor,Republica de Argentina y el Carmen,POINT (-99.1304957 19.4372656),-99.1304957,19.4372656
+39,Dano mayor,Edificio SNTE,POINT (-99.1311086 19.4372966),-99.1311086,19.4372966
 40,Dano mayor,Aeropuerto Internacional de la CDMX,POINT (-99.0865854 19.4240967),-99.0865854,19.4240967
 41,Dano mayor,Fuente del Pescador,POINT (-99.2567572 19.4006283),-99.2567572,19.4006283
-43,Acopio,Rio Hondo 1,POINT (-99.199634 19.344903),-99.199634,19.344903
-44,Acopio,Av. Arteaga y Salazar 1267,POINT (-99.278472 19.353339),-99.278472,19.353339
-45,Acopio,Av. Javier Barros Sierra 540,POINT (-99.36496 19.36496),-99.36496,19.36496
-46,Acopio,Bosque de Toronjos 39,POINT (-99.26308 19.379804),-99.26308,19.379804
-47,Acopio,Paseo de Los Tamarindos 49,POINT (-99.250596 19.39113),-99.250596,19.39113
-48,Acopio,Cda. De Bezares 130,POINT (-99.24184 19.390844),-99.24184,19.390844
-49,Acopio,Bosque de Avellanos 142,POINT (-99.253089 19.401311),-99.253089,19.401311
-50,Acopio,Universidad Anahuac Sur,POINT (-99.24448 19.334312),-99.24448,19.334312
-51,Acopio,Sierra Amatepec 193,POINT (-99.230742 19.419474),-99.230742,19.419474
-52,Acopio,Fuente de las Piramides 37,POINT (-99.226561 19.426318),-99.226561,19.426318
-53,Acopio,Montana Calizas 446,POINT (-99.219434 19.425229),-99.219434,19.425229
-54,Acopio,Prado Sur 440,POINT (-99.210299 19.42176),-99.210299,19.42176
-55,Acopio,Blvd. De los Virreyes 110,POINT (-99.208301 19.420626),-99.208301,19.420626
-56,Acopio,Cruz Roja Polanco,POINT (-99.208989 19.438092),-99.208989,19.438092
-57,Acopio,Angel Peralta Polanco,POINT (-99.194168 19.429727),-99.194168,19.429727
-58,Acopio,Glorieta de Masaryk,POINT (-99.195061 19.4319),-99.195061,19.4319
-59,Acopio,Ruben Dario 115,POINT (-99.185043 19.429377),-99.185043,19.429377
-60,Acopio,Glorieta de Cibeles,POINT (-99.166275 19.420069),-99.166275,19.420069
-61,Acopio,Espana Park,POINT (-99.171 19.415306),-99.171,19.415306
-62,Acopio,Parque Mexico,POINT (-99.169192 19.412251),-99.169192,19.412251
-63,Acopio,Huerto Roma Verde,POINT (-99.159658 19.411462),-99.159658,19.411462
-64,Acopio,Zocalo,POINT (-99.133248 19.432966),-99.133248,19.432966
-65,Acopio,Metrobus Etiopia,POINT (-99.1558 19.398582),-99.1558,19.398582
-66,Acopio,Heriberto Frias 819,POINT (-99.160926 19.387928),-99.160926,19.387928
-67,Albergue,Villa Mujeres,POINT (-99.155068 19.155068),-99.155068,19.155068
-68,Albergue,Castilla Oriente,POINT (-99.1845903 19.4838002),-99.1845903,19.4838002
-69,Albergue,Casa del peregrino,POINT (-99.11004 19.483316),-99.11004,19.483316
-70,Albergue,Preparatoria Popular Martires de Tlatelolco,POINT (-99.1617717 19.4553387),-99.1617717,19.4553387
-71,Albergue,Deportivo Plan Sexenal,POINT (-99.173115 19.453989),-99.173115,19.453989
-72,Albergue,Deportivo Pavon,POINT (-99.193352 19.448796),-99.193352,19.448796
-73,Albergue,Deportivo Cuautemoc,POINT (-99.1535962 19.4424244),-99.1535962,19.4424244
-74,Albergue,Plaza del Estudiante,POINT (-99.1306164 19.4406296),-99.1306164,19.4406296
-75,Albergue,Deportivo Mina,POINT (-99.1502748 19.4397608),-99.1502748,19.4397608
-76,Albergue,Museo parque lira,POINT (-99.188787 19.405886),-99.188787,19.405886
-77,Albergue,Club junior,POINT (-99.1736609 19.4048648),-99.1736609,19.4048648
-78,Albergue,Centro Social Fraccionamiento Coyuya,POINT (-99.116757 19.401163),-99.116757,19.401163
-79,Albergue,Casi coruna jovenes,POINT (-99.131704 19.398999),-99.131704,19.398999
-80,Albergue,Casa de adulto mayor Elena Poniatowska,POINT (-99.06866 19.414111),-99.06866,19.414111
-81,Albergue,Sala de armas de la magadalena mixihuca,POINT (-99.091637 19.407581),-99.091637,19.407581
-82,Albergue,Casa de la mujer mariposas iztacalco,POINT (-99.081541 19.393284),-99.081541,19.393284
-83,Albergue,Deportivo Alvaro Obregon,POINT (-99.199703 19.387702),-99.199703,19.387702
-84,Albergue,Deportivo Benito Juarez,POINT (-99.158393 19.371305),-99.158393,19.371305
-85,Albergue,Deportivo Rosario Iglesias,POINT (-99.121312 19.303176),-99.121312,19.303176
-86,Albergue,Villa Olimpica,POINT (-99.1881 19.296697),-99.1881,19.296697
-87,Albergue,Deportivo cuajimalpa,POINT (-99.289306 19.362448),-99.289306,19.362448
-88,Acopio,Jardin Pushkin,POINT (-99.154188 19.420783),-99.154188,19.420783
-89,Acopio,Reforma 51 piso 2,POINT (-99.266768 19.370104),-99.266768,19.370104
-90,Acopio,Reforma 116,POINT (-99.193559 19.426122),-99.193559,19.426122
-91,Acopio,Luis vives 200,POINT (-99.209349 19.438049),-99.209349,19.438049
-92,Acopio,Alvaro Obregon y Sonora,POINT (-99.170439 19.416863),-99.170439,19.416863
-93,Acopio,Autodromo Hermanos Rodriguez Puerta 9,POINT (-99.086601 19.436998),-99.086601,19.436998
-94,AcopioN,"Calle Aldama y Mina. Agua purificada. Lamparas y cubrebocas. Alimentos en latas. Leche en polvo. Panales, paper y toallas sanitarias. Medicinas no caducadas. Cobijas.",POINT (-99.151553 19.440690),-99.151553,19.44069
-95,AcopioN,Xicotencatl 261. Transporte,POINT (-99.159069 19.353885),-99.159069,19.353885
-96,AcopioN,Escuela Enrique Rebsamen. Mochilas camelback con garrafa delgada.,POINT (-99.1327225 19.296988),-99.1327225,19.296988
-97,AcopioN,"Doctor Atl 176. A la 1 de la tarde se hara comida para rescatistas y damnificados. Se recibe pan, baguettes, pan de caja, bolillos, atun, mayonesa, lechiga, chiles en rajas, tortillas de harina, botellas de agua, platos, empaques desechables, verduras y voluntarios.",POINT (-99.156331 19.448772),-99.156331,19.448772
-98,AcopioN,Av. Division del Nte 175. Voluntarios. Hora 1 02 pm.,POINT (-99.149658 19.34029),-99.149658,19.34029
-99,AcopioN,"Xochimilco. Callejon de las Rossas. 1 10pm. Arquitectos e ingenieros para valorar edificios. Palas, picos, mazos, carretillas, cuerdas, tapabocas, plantas de luz, linternas, pilas, gasolina.",POINT (-99.253920 19.253920),-99.25392,19.25392
-100,AcopioN,Parque Mexico. Vacunas antirrabicas.,POINT (-99.169192 19.412251),-99.169192,19.412251
-101,AcopioN,Zocalo. Alimentos cerrados. Agua. ,POINT (-99.133248 19.432966),-99.133248,19.432966
-102,Urgente,Zapata y Saratoga URGEN GRUAS PARA RESCATE, POINT (-99.151485 19.365835),-99.151485,19.365835
-103,AcopioN,Calles Monaco y Gran Bretana. Gente para preparar alimento. 1 30pm,POINT (-99.138297 19.373474),-99.138297,19.373474
-104,AcopioN,Calle Gabriel Mancera. Eje 2 pte. Mucha gente pero pocas herramientas,POINT (-99.163335 19.390341),-99.163335,19.390341
-105,AcopioN,"Bosque de Chapultepec. Puerta de los leons. Medicamento, gasas, agua oxigenada, camillas, colchonetas, brocas de media para concreto, palas, picos, gasolina y disel para plantas y maquinas, cascos, chalecos de seguridad, carretillas para escombro, rodilleras, linternas y pilas para linternas.",POINT (-99.176159 19.423330),-99.176159,19.42333
-106,AcopioN,Fray Servando Teresa de Mier. Se solicita apoyo para relevo de voluntarios. 2 40pm,POINT (-99.139354 19.424404),-99.139354,19.424404
-107,AcopioN,Calle Aldama y Sol. Se recibe el escombro y herramienta. 2 40pm,POINT (-99.15009 19.448912),-99.15009,19.448912
-108,AcopioN,Av. San Jeronimo 819. Cajas de carton 2 37 pm,POINT (-99.215600 19.330052),-99.2156,19.330052
-109,AcopioN,Alfonso Reyes 235. 3 00 pm. Palas y material para remover escombro,POINT (-99.173377 19.407062),-99.173377,19.407062
-110,Urgente,"Estadio Olimpico. Cajas para mover el acopio.",POINT (-99.192188 19.332257),-99.192188,19.332257
-111,Urgente,Eje 2 pte y calle Zacatecas. Edificio danado inclinandose hacia un lado. Al parecer dos personas en piso 7,POINT (-99.163556 19.415373),-99.163556,19.415373
-112,AcopioN,"Campo Marte. Avenida Paseo de la Reforma. Adrenalina ampolletas de 1mg, atropina de 1 mg, salbutamol spray, bromuro de ipratropio solucion para nebulizar o spray, analgesicos en general, rivotril o tafil. Guantes desechables, gasas, punzos n.18, 14, 16, 20, 22. suero oral, llave de tres vias, jeringas de 5ml, 10ml, cubrebocas, agua oxigenada, vendas de 10 cm. Guantes quirurgicos, cepillos quirurgicos, tela adhesiva, micropore, bultos quirurgicos, equipo para venoclisis, solucion HARTMAN, solucion fisiologica de 500.",POINT (-99.196745 19.423992),-99.196745,19.423992
-113,AcopioN,"Oficinas del DIF Nacional. Avenida Emiliano Zapata 340, Colonia Santa Cruz Atoyac. Adrenalina ampolletas de 1mg, atropina de 1 mg, salbutamol spray,bromuro de ipratropio solucion para nebulizar o spray, analgesicos en general, rivotril o tafil. Guantes desechables, gasas, punzos n.18, 14, 16, 20, 22. suero oral, llave de tres vias, jeringas de 5ml, 10ml, cubrebocas, agua oxigenada, vendas de 10 cm. Guantes quirurgicos, cepillos quirurgicos, tela adhesiva, micropore, bultos quirurgicos, equipo para venoclisis, solucion HARTMAN, solucion fisiologica de 500.",POINT (-99.156826 19.375697),-99.156826,19.375697
-115,AcopioN,"UAM Xochimilco. Se requieren viveres, material de curacion y herramientas. Canal de Miramontes 3855, Ex de San Juan de Dios, 14387 Ciudad de Mexico",POINT (-99.137572 19.286526),-99.137572,19.286526
-116,AcopioN,"Almacen General del DIF, Avenida Mexico Coyoacan 278, Colonia santa Cruz Atoyac",POINT (-99.163211 19.366217),-99.163211,19.366217
-117,AcopioN,"Concepcion Beistegui y Gabriel Mancera. 3 20pm. Palas, picos, guantes de carnaza y voluntarios. Alcohol, agua y jeringas.",POINT (-99.163620 19.389348),-99.16362,19.389348
-118,AcopioN,Eje 7A Sur y Prol Xochicalco. Pilas de cualquier tipo. Gasolina,POINT (-99.158687 19.367417),-99.158687,19.367417
-119,AcopioN,"Casa Hogar para ninas Graciela Zubiran Villarreal, Avenida Insurgentes Sur 3700, Colonia Cuicuilco. Adrenalina ampolletas de 1mg, atropina de 1 mg, salbutamol spray, bromuro de ipratropio solucion para nebulizar o spray, analgesicos en general, rivotril o tafil. Guantes desechables, gasas, punzos n.18, 14, 16, 20, 22; suero oral, llave de tres vias, jeringas de 5ml, 10ml, cubrebocas, agua oxigenada, vendas de 10 cm. Guantes quirurgicos, cepillos quirurgicos, tela adhesiva, micropore, bultos quirurgicos, equipo para venoclisis, solucion HARTMAN, solucion fisiologica de 500.", POINT (-99.176417 19.308020),-99.176417,19.30802
-120,AcopioN,"Centro de Acopio INPer (PERINATOLOGIA). Montes Urales 800, Lomas Virreyes, Ciudad de Mexico. Agua embotellada, alimentos enlatados o envasados no perecederos, leche en polvo, panales desechables, cobertores, ropa, papel sanitario, material de curacion gasas, vendas, analgesicos, desinflamatorios, toallas sanitarias, jabon, articulos de higiene personal, platos y cubiertos desechables, alimento para mascotas.",POINT (-99.205224 19.423158),-99.205224,19.423158
-121,Urgente,"Kiosco Morisco. Se necesitan herramientas, material medico y agua.",POINT(-99.156656 19.450763),-99.156656,19.450763
+42,Albergue,Villa Mujeres,POINT (-99.155068 19.155068),-99.155068,19.155068
+43,Albergue,Castilla Oriente,POINT (-99.1845903 19.4838002),-99.1845903,19.4838002
+44,Albergue,Casa del peregrino,POINT (-99.11004 19.483316),-99.11004,19.483316
+45,Albergue,Preparatoria Popular Martires de Tlatelolco,POINT (-99.1617717 19.4553387),-99.1617717,19.4553387
+46,Albergue,Deportivo Plan Sexenal,POINT (-99.173115 19.453989),-99.173115,19.453989
+47,Albergue,Deportivo Pavon,POINT (-99.193352 19.448796),-99.193352,19.448796
+48,Albergue,Deportivo Cuautemoc,POINT (-99.1535962 19.4424244),-99.1535962,19.4424244
+49,Albergue,Plaza del Estudiante,POINT (-99.1306164 19.4406296),-99.1306164,19.4406296
+50,Albergue,Deportivo Mina,POINT (-99.1502748 19.4397608),-99.1502748,19.4397608
+51,Albergue,Museo parque lira,POINT (-99.188787 19.405886),-99.188787,19.405886
+52,Albergue,Club junior,POINT (-99.1736609 19.4048648),-99.1736609,19.4048648
+53,Albergue,Centro Social Fraccionamiento Coyuya,POINT (-99.116757 19.401163),-99.116757,19.401163
+54,Albergue,Casi coruna jovenes,POINT (-99.131704 19.398999),-99.131704,19.398999
+55,Albergue,Casa de adulto mayor Elena Poniatowska,POINT (-99.06866 19.414111),-99.06866,19.414111
+56,Albergue,Sala de armas de la magadalena mixihuca,POINT (-99.091637 19.407581),-99.091637,19.407581
+57,Albergue,Casa de la mujer mariposas iztacalco,POINT (-99.081541 19.393284),-99.081541,19.393284
+58,Albergue,Deportivo Alvaro Obregon,POINT (-99.199703 19.387702),-99.199703,19.387702
+59,Albergue,Deportivo Benito Juarez,POINT (-99.158393 19.371305),-99.158393,19.371305
+60,Albergue,Deportivo Rosario Iglesias,POINT (-99.121312 19.303176),-99.121312,19.303176
+61,Albergue,Villa Olimpica,POINT (-99.1881 19.296697),-99.1881,19.296697
+62,Albergue,Deportivo cuajimalpa,POINT (-99.289306 19.362448),-99.289306,19.362448
+63,Albergue,Gimnasio G3,POINT (-99.199445 19.388198),-99.199445,19.388198
+64,AcopioN,"Cda. Rufina 40. Centro de acopio para PUEBLA y MORELOS. Equipo de curacion, vendas, gasas, herramientas, despensas. De 8am a 6pm",POINT (-99.188368 19.402347),-99.188368,19.402347
+65,AcopioN,"Sinaloa 216, Roma Nte. Salen camionetas a Morelos entre 12 y 1 horas. Hay espacio por si alguien desea ir.",POINT (-99.173515 19.419551),-99.173515,19.419551
+66,AcopioN,"Division del Norte y Eugenia. Material de curacion y personal medico. Se aceptan desayunos. Favor de NO IR A EJE 5 y Division, mucha gente estorba las maquinas. 11 30 am",POINT (-99.159375 19.379855),-99.159375,19.379855
+67,Albergue,Casa hogar Renato Leduc 82. Se solicitan viveres. Tel 56062376,POINT (-99.16361 19.294338),-99.16361,19.294338
+68,Acopio,Parque Espana. Relevo de voluntarios para sacar escombros,POINT (-99.171365 19.414102),-99.171365,19.414102
+69,AcopioN,"Tec de Monterrey Campus Santa Fe. Medicamentos, material primeros auxilios y construccion.",POINT (-99.25929 19.359546),-99.25929,19.359546
+70,Acopio,Farmacia Paris. FAVOR DE DAR DIFUSION a este acopio,POINT (-99.136542 19.43183),-99.136542,19.43183
+71,Albergue,"5 de Febrero 171, Obrera. Espacio para mascotas, alimentos, camas. Se pueden banar.",POINT (-99.135781 19.421593),-99.135781,19.421593
+72,Acopio,Centro de acopio Univerix en Av Contreras 387,POINT (-99.215008 19.328532),-99.215008,19.328532
+73,AcopioN,"Zocalo. Cascos, picos, palas, martillos, marros, arneses, clavos de 2, diesel.",POINT (-99.133237 19.432834),-99.133237,19.432834
+74,AcopioN,"Alvaro Obregon 282. Botas, casco, cubrebocas y guantes. 9 am",POINT (-99.168415 19.417036),-99.168415,19.417036
+75,AcopioN,Escuela Rebsamen. Interpretes de Japones. 1100am,POINT (-99.130564 19.29683),-99.130564,19.29683
+76,AcopioN,Calle Monaco y Bretana. Alimentos no perecederos. Ya NO se necesita gente,POINT (-99.138442 19.373595),-99.138442,19.373595
+77,AcopioN,"Xochimilco. Palas, picos, mazos, carretillas, cuerdas, tapabocas, plantas de luz, linternas, pilas, gasolina.",POINT (-99.253920 19.253920),-99.25392,19.25392
+78,AcopioN,"Estadio Olimpico. Medicamento, gasas, agua oxigenada, camillas, colchonetas, brocas de media para concreto, palas, picos, gasolina y disel para plantas y maquinas, cascos, chalecos de seguridad, carretillas para escombro, rodilleras, linternas y pilas para linternas.",POINT (-99.192188 19.332257),-99.192188,19.332257
+79,AcopioN,"UAM Xochimilco. Se requieren viveres, material de curacion y herramientas. Canal de Miramontes 3855, Ex de San Juan de Dios, 14387 Ciudad de Mexico",POINT (-99.137572 19.286526),-99.137572,19.286526
+80,AcopioM,"Ensenada 22, Hipodromo. Atencion a MASCOTAS.",,-99.17453,19.410511
+81,Acopio,Colegio Aleman 5501.,,-99.083754,19.243672
+82,Acopio,Acopio para MORELOS y PUEBLA. Avenida Hacienda de Guaracha 121,,-99.225126,19.489296
+83,Hospital,Medica Sur. Sillon de Mendoza 100. Apoyo sin costo para primeros auxilios y apoyo psicologico.,,-99.161223,19.297202
+84,Hospital,Medica Sur Puente de Piedra 150. Serivicio de urgencias sin costo a lesionados por el sismo,,-99.161712,19.297626
+85,Hospital,Hospital infantil. Atencion medica y quirurgica,,-99.186099,19.304984
+86,Hospital,Hospital 20 de noviembre. 120 camas para adultos y 20 para ninos. Medicos todas especialidades,,-99.1711181,19.372169
+87,Hospital,Sedna Hospital. Hemodialisis a pacientes que quedaron fuera de atencion por sismo.,,-99.174048,19.303571
+88,AcopioN,"Hospital Nacional de Peditria. SE NECESITA agua embotellada, papel higienico, leche en polvo, jeringas de 5 y 10 ml, torundas, alcohol, cateter para oxigeno con tubo de conex. Canula nasal de plastico de diamtro interno de 2 ml, extensiones de luz, detergente y comida para la noche",,-99.185302,19.306387
+89,Hospital,Magalena Salinas. Sangre. Dispuesto a recibir pacientes graves,,-99.138001,19.485813
+90,Hospital,"Cruz Roja Mexicana Polanco. NO necesita voluntarios, solo productos medicos.",,-99.208989,19.437879
+91,AcopioN,"Bosque de Enebros 57. Colecta para ninos de OAXACA. Hasta 8pm Ropa, panales, y juguetes.",,-99.255608,19.392288
+92,AcopioN,"Amores 1444. Lamparas, medicinas y voluntarios para relevar el turno de la NOCHE. Masking tape para cajas.",,-99.169124,19.372438
+80,Danos,Iglesia de Santo Tomas Chautla: sin detalles,POINT (-98.15452390000002 18.963057) ,-98.1545239,18.963057
+81,Danos,Primaria Progreso: sin detalles,POINT (-98.15429 18.961048) ,-98.15429,18.961048
+82,Danos,"Centro de Integral de Servicios (CIS), Tepexi de Rodrguez: sin detalles",POINT (-97.9269104 18.5784204) ,-97.9269104,18.5784204
+83,Danos,Ex Convento Franciscano: sin detalles,POINT (-97.73020150000002 18.8864014) ,-97.7302015,18.8864014
+84,Danos,Universidad Politecnica de Amozoc: sin detalles,POINT (-98.04196530000002 19.0743368) ,-98.0419653,19.0743368
+85,Danos,Iglesia de los Remedios: sin detalles,POINT (-98.30178699999999 19.058054) ,-98.301787,19.058054
+86,Danos,Parroquia de San Pedro Cholula: sin detalles,POINT (-98.30634250000003 19.0636282) ,-98.3063425,19.0636282
+87,Danos,Iglesia de San Miguelito: sin detalles,POINT (-98.3184685 19.0293809) ,-98.3184685,19.0293809
+88,Danos,Convento de San Gabriel: sin detalles,POINT (-98.30463220000001 19.0622259) ,-98.3046322,19.0622259
+89,Danos,Parroquia de Santa Mara de la Natividad: sin detalles,POINT (-98.43368929999997 18.909612) ,-98.4336893,18.909612
+90,Danos,Ayuntamiento Constitucional de Atlixco: sin detalles,POINT (-98.43397329999999 18.9091843) ,-98.4339733,18.9091843
+91,Danos,Ex-convento del Carmen: sin detalles,POINT (-98.43283529999997 18.9088008) ,-98.4328353,18.9088008
+92,Danos,Iglesia de Santiago Apostol: sin detalles,POINT (-98.55347540000002 18.5452973) ,-98.5534754,18.5452973
+93,Danos,Parroquia Divino Salvador: sin detalles,POINT (-98.09536809999997 19.0472208) ,-98.0953681,19.0472208
+94,Danos,Altepexi: sin detalles,POINT (-97.29822239999999 18.3693599) ,-97.2982224,18.3693599
+95,Danos,Hospital General de Acatlan: sin detalles,POINT (-98.05637589999998 18.1860514) ,-98.0563759,18.1860514
+96,Danos,Centro Integral de Servicios Acatlan de Osorio: sin detalles,POINT (-98.0526681 18.1938026) ,-98.0526681,18.1938026
+97,Danos,Centro Escolar Pdte. Lic. Benito Juarez: sin detalles,POINT (-98.0437571 18.2030203) ,-98.0437571,18.2030203
+98,Danos,Iglesia del Barrio de San Juan Bautista: sin detalles,POINT (-98.04763439999999 18.2009815) ,-98.0476344,18.2009815
+99,Danos,Centro de Educacion a Distancia Acatlan de Osorio: sin detalles,POINT (-98.04533000000004 18.19704) ,-98.04533,18.19704
+100,Danos,Santa Ana Coatepec: sin detalles,POINT (-98.43568069999998 18.8363244) ,-98.4356807,18.8363244
+101,Danos,Santo Domingo: sin detalles,POINT (-98.46452750000003 18.5990875) ,-98.4645275,18.5990875
+102,Danos,Ex-convento de San Miguel Arcangel: sin detalles,POINT (-98.4045208 19.1587804) ,-98.4045208,19.1587804
+103,Danos,San Cristobal Tepontla: sin detalles,POINT (-98.32663960000002 19.0696041) ,-98.3266396,19.0696041
+104,Danos,Iglesia de Santa Mara Tonantzintla: sin detalles,POINT (-98.31974120000001 19.0298414) ,-98.3197412,19.0298414
+105,Danos,San Francisco: sin detalles,POINT (-98.3087243 19.0221617) ,-98.3087243,19.0221617
+106,Danos,Iglesia de Santo Tomas Chautla: Cuarteaduras en torre y desprendimiento de techo en la cupula,POINT (-98.15452390000002 18.963057) ,-98.1545239,18.963057
+107,Danos,Primaria Progreso: sin detalles,POINT (-98.15429 18.961048) ,-98.15429,18.961048
+108,Danos,"Centro de Integral de Servicios (CIS), Tepexi de Rodrguez: Desprendimiento de plafon del techo y cristales",POINT (-97.9269104 18.5784204) ,-97.9269104,18.5784204
+109,Danos,Ex Convento Franciscano: Afectacion estructural,POINT (-97.73020150000002 18.8864014) ,-97.7302015,18.8864014
+110,Danos,Universidad Politecnica de Amozoc: Afectacion estructural,POINT (-98.04196530000002 19.0743368) ,-98.0419653,19.0743368
+111,Danos,Iglesia de los Remedios: Cada de 2 cupulas de las torres,POINT (-98.30178699999999 19.058054) ,-98.301787,19.058054
+112,Danos,Parroquia de San Pedro Cholula: Fracturas en la torre principal,POINT (-98.30634250000003 19.0636282) ,-98.3063425,19.0636282
+113,Danos,Iglesia de San Miguelito: sin detalles,POINT (-98.3184685 19.0293809) ,-98.3184685,19.0293809
+114,Danos,Convento de San Gabriel: Cada de las cupulas de las torres,POINT (-98.30463220000001 19.0622259) ,-98.3046322,19.0622259
+115,Danos,Parroquia de Santa Mara de la Natividad: sin detalles,POINT (-98.43368929999997 18.909612) ,-98.4336893,18.909612
+116,Danos,Ayuntamiento Constitucional de Atlixco: sin detalles,POINT (-98.43397329999999 18.9091843) ,-98.4339733,18.9091843
+117,Danos,Ex-convento del Carmen: sin detalles,POINT (-98.43283529999997 18.9088008) ,-98.4328353,18.9088008
+118,Danos,Iglesia de Santiago Apostol: Cada de cupula y techo,POINT (-98.55347540000002 18.5452973) ,-98.5534754,18.5452973
+119,Danos,Parroquia Divino Salvador: sin detalles,POINT (-98.09536809999997 19.0472208) ,-98.0953681,19.0472208
+120,Danos,Altepexi: Cerro desgajado,POINT (-97.29822239999999 18.3693599) ,-97.2982224,18.3693599
+121,Danos,Hospital General de Acatlan: sin detalles,POINT (-98.05637589999998 18.1860514) ,-98.0563759,18.1860514
+122,Danos,Centro Integral de Servicios Acatlan de Osorio: sin detalles,POINT (-98.0526681 18.1938026) ,-98.0526681,18.1938026
+123,Danos,Centro Escolar Pdte. Lic. Benito Juarez: sin detalles,POINT (-98.0437571 18.2030203) ,-98.0437571,18.2030203
+124,Danos,Iglesia del Barrio de San Juan Bautista: sin detalles,POINT (-98.04763439999999 18.2009815) ,-98.0476344,18.2009815
+125,Danos,Centro de Educacion a Distancia Acatlan de Osorio: sin detalles,POINT (-98.04533000000004 18.19704) ,-98.04533,18.19704
+126,Danos,Santa Ana Coatepec: sin detalles,POINT (-98.43568069999998 18.8363244) ,-98.4356807,18.8363244
+127,Danos,Santo Domingo: sin detalles,POINT (-98.46452750000003 18.5990875) ,-98.4645275,18.5990875
+128,Danos,Ex-convento de San Miguel Arcangel: sin detalles,POINT (-98.4045208 19.1587804) ,-98.4045208,19.1587804
+129,Danos,San Cristobal Tepontla: sin detalles,POINT (-98.32663960000002 19.0696041) ,-98.3266396,19.0696041
+130,Danos,Iglesia de Santa Mara Tonantzintla: Cada de la cupula de la entrada principal,POINT (-98.31974120000001 19.0298414) ,-98.3197412,19.0298414
+131,Danos,San Francisco: Cada de la decoracion y agrietamiento en el campanario.,"POINT ( -99.240801, 18.982033) ",-98.3087243,19.0221617
+132,Acopio,UAEM Facultad de Comunicacion Humana,POINT (-99.240801 18.982033) ,-99.240801,18.982033
+133,Acopio,UPEMOR,POINT (-99.140099 18.889417) ,-99.140099,18.889417
+134,Acopio,Cruz Roja CITPSI,POINT (-99.212921 18.929086) ,-99.212921,18.929086
+135,Acopio,"Calle de la Luz 43, Chapultepec Cuernavaca",POINT (-99.211266 18.917817) ,-99.211266,18.917817
+136,Acopio,"Emiliano Zapata 7, Ticuman. Tlaltizapan",POINT (-99.121324 18.761811) ,-99.121324,18.761811
+137,Acopio,Hotel Villa del Conquistador,POINT (-99.228856 18.956067) ,-99.228856,18.956067
+138,Acopio,Hala Ken,POINT (-99.213369 18.9462) ,-99.213369,18.9462
+139,Acopio,Colegio Miraflores,POINT (-99.19793 18.922025) ,-99.19793,18.922025
+140,Acopio,DIF Las Quintas,POINT (-99.217428 18.916205) ,-99.217428,18.916205
+141,Acopio,Sams,POINT (-99.227235 18.943375) ,-99.227235,18.943375
+142,Acopio,Sumesa ,POINT (-99.216571 18.940903) ,-99.216571,18.940903
+143,Acopio,Urban Crossfit,POINT (-99.229676 18.943419) ,-99.229676,18.943419
+144,Danos,Tlatempa,POINT (-99.286021 18.971224) ,-99.286021,18.971224
+145,Danos,Hueyapan,POINT (-98.690135 18.885328) ,-98.690135,18.885328
+146,Danos,Tetecala,POINT (-99.385713 18.733221) ,-99.385713,18.733221
+147,Danos,Cabecera Municipal Zacatepec,POINT (-99.194211 18.655273) ,-99.194211,18.655273
+148,Danos,Cabecera Municipal Tlaquiltenango,POINT (-99.162907 18.629468) ,-99.162907,18.629468
+149,Danos,Autopista Mx-Acapulco km 109,POINT (-99.230957 18.764965) ,-99.230957,18.764965
+150,Danos,"Ocuituco, Cerro de Ocoxaltepec",POINT (-98.774409 18.879514) ,-98.774409,18.879514
+151,Danos,"Yautepec, Colonia Nopalera 80 casas destruidas",POINT (-99.057278 18.798843) ,-99.057278,18.798843
