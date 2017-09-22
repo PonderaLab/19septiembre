@@ -52,7 +52,8 @@ def jot2pondera():
 
     for i, d in df.iterrows():
         if str(d['tipo'].encode('utf-8')) == 'Acopio':
-            s = 'Se necesita: ' + ' '.join([str(d['acopio'].encode('utf-8')), str(d['necesita'].encode('utf-8'))])
+            s = 'Se necesita: ' + \
+                ' '.join([str(d['acopio'].encode('utf-8')), str(d['necesita'].encode('utf-8'))])
         elif str(d['tipo'].encode('utf-8')) == 'Acopio Hospital':
             s = 'Se necesita: ' + ' '.join([str(d['hospital']), str(d['necesita'])])
         elif str(d['tipo'].encode('utf-8')) == 'Requiero Voluntarios':
@@ -69,4 +70,4 @@ def jot2pondera():
         s = s.replace('nan', '')
         df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s)
 
-    df.to_csv('db_jot.csv',mode = 'w', encoding='utf-8')
+    df.to_csv('db_jot.csv', mode='w', encoding='utf-8')
