@@ -9,6 +9,7 @@ from os.path import exists
 from datetime import datetime as dt
 from folium.map import *
 
+
 def mapcreator():
     tmp_df = pd.read_csv('db_all_db.csv', dtype={
                          'store_point': str, 'geometry': str}, encoding='utf-8')
@@ -16,9 +17,6 @@ def mapcreator():
     tmp_df.store_point = tmp_df.store_point.str.decode('utf-8')
 
     crs = {'init': 'epsg:4326'}
-
-    #xolo_gdf = gpd.GeoDataFrame(tmp_df, crs=crs, geometry=tmp_df.geometry)
-
 
     c_coords = (19.006626, -98.801924)
 
@@ -94,15 +92,6 @@ def mapcreator():
 
     crs = {'init': 'epsg:4326'}
 
-    #xolo_gdf = gpd.GeoDataFrame(tmp_df, crs=crs, geometry=tmp_df.geometry)
-
-
-
-
-    #folium.GeoJson(xolo_gdf).add_to(m)
-
-    #logo = CustomIcon('wax_logo.png', icon_size=(20, 20))
-
     for id_, r in tmp_df.iterrows():
         color = 'white'
         if r['tipo'].encode('utf-8') == 'Acopio':
@@ -177,5 +166,4 @@ def mapcreator():
     m.add_child(fg_blanco)
     m.add_child(folium.map.LayerControl())
 
-    # folium.LayerControl().add_to(m)
     m.save('mapa.html')
