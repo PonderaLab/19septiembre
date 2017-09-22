@@ -1,55 +1,220 @@
 {% load static %}
 
 <html>
-<header>
-  <img src="{% static "01p.png" %}" alt="PonderaLab" align="right" width="300px">
-</header>
-<br><br><br><br>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sismo 19 de septiembre</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}">
+  <link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}">
+  <link rel="stylesheet" type="text/css" href="{% static "style.css" %}">
+  <link rel="stylesheet" type="text/css" href="{% static "css/owl.carousel.css" %}">
+  <script src="{% static "js/jquery.quovolver.min.js" %}"></script>
+</head>
+
 <body>
-  <font face = "Verdana">
-  <div style="margin:0px 0">
-    <center>
-      <h1>Sismo 19 de septiembre</h1>
-      Reportes y Albergues:
-      <div style="display:inline-block;width:20px;height:10px; background-color:black;"></div> Derrumbe
-      <div style="display:inline-block;width:20px;height:10px; background-color:orange;"></div> Daños
-      <div style="display:inline-block;width:20px;height:10px; background-color:rgb(116, 174, 50) ;"></div> Albergue
-      <br>
-      <br>
-      Solicitudes:
-      <div style="display:inline-block;width:20px;height:10px; background-color:rgb(63, 171, 219);"></div> Centro de Acopio y Necesidades in situ
-      <div style="display:inline-block;width:20px;height:10px; background-color:rgb(212, 63, 49);"></div> Se Requieren Voluntarios
-      <div style="display:inline-block;width:20px;height:10px; background-color:white; border:1px solid;;"></div> Hospital
-      <div style="display:inline-block;width:20px;height:10px; background-color:rgb(253, 142, 130) ;"></div> Requiero Revisión de Inmueble
-    </center>
-  </div>
-  <iframe style="display:block;margin:20px auto;" src="{% url 'mapa' %}" height="60%" width="80%"></iframe>
-  <center>Si tienes un <em>reporte o solicitud</em> que hacer (estando tú en la zona) llena esta   <input style="width:200px; background-color:rgb(207,26,58);color:white;" type="button" value="Forma" onclick="window.location.href='https://form.jotform.co/72637454207862'" /> </center>
-  <br><br><br>
-  <div style="margin:0px 0">
-    <center>
-      <h1>Mapa de calor de derrumbes y daños graves</h1>
-    </center>
-  </div>
-  <iframe style="display:block;margin:20px auto;" src="{% url 'heatmap' %}" height="60%" width="80%"></iframe>
-  <div style="width:300px; text-align:center; margin:0px auto;">¿Quieres ayudar? Enlaces Externos<br /><br />
-      <input style="width:200px; background-color:#303030;color:white;" type="button" value="Cómo Ayudar Mx" onclick="window.location.href='https://comoayudar.mx'" />
-      <input style="width:200px; background-color:#404040;color:white;" type="button" value="WishList Amazon" onclick="window.location.href='https://www.amazon.com.mx/b?ie=UTF8&node=17290014011&pf_rd_p=76aec45f-a7fa-4330-9eac-77b7ae0b8bf3&pf_rd_r=6QR31H1ZGWQGPYKJ9X65'" />
-      <input style="width:200px; background-color:#505050;color:white;" type="button" value="PayPal Cruz Roja" onclick="window.location.href='https://www.paypal.com/mx/webapps/mpp/donar/institution?name=redCross'" />
-      <input style="width:200px; background-color:#606060;color:white;" type="button" value="Topos" onclick="window.location.href='http://topos.red'" />
-      <input style="width:200px; background-color:#606060;color:white;" type="button" value="Hospedaje para rescatistas" onclick="window.location.href='https://www.tripadvisor.com.mx/Hotel_Review-g150800-d308512-Reviews-Hostel_Mundo_Joven_Catedral-Mexico_City_Central_Mexico_and_Gulf_Coast.html'" />
-      <input style="width:200px; background-color:#606060;color:white;" type="button" value="Mexico te Necesita" onclick="window.location.href='https://www.mercadolibre.com.mx/mexico-te-necesita'" />
-  </div>
-  <br />
-  <br />
+  <!--header starts-->
+  <header class="main-header" style="max-height: 500">
+    <div class="backbg-color" style="max-height: 500">
+      <div class="navigation-bar">
+        <div class="container">
+          <!-- <div style="width: 100px">
+            <img src="{% static "01p.png" %}" alt="PonderaLab" align="right" width="10px">
+          </div> -->
+          <div class="row">
+            <div class="col-md-12">
+              <!--navigation starts-->
+              <nav class="navbar navbar-default">
+                <div class="navbar-header" style="width:100% !important">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+									       <span class="icon-bar"></span>
+									       <span class="icon-bar"></span>
+									       <span class="icon-bar"></span>
+									    </button>
+                  <a class="navbar-brand" href="#"><span class="grey">19s</span> #FuerzaMéxico</a>
+                  <div style="display: inline-block; margin: 15 0 0 600; width: 100!important">
+                    <img src="{% static "01p.png" %}" alt="PonderaLab" align="right">
+                  </div>
+                </div>
+                <div class="collapse navbar-collapse navbar-left" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li><a href="https://comoayudar.mx">Cómo Ayudar Mx</a></li>
+                    <li><a href="https://www.amazon.com.mx/b?ie=UTF8&node=17290014011&pf_rd_p=76aec45f-a7fa-4330-9eac-77b7ae0b8bf3&pf_rd_r=6QR31H1ZGWQGPYKJ9X65">WishList Amazon</a></li>
+                    <li><a href="https://www.paypal.com/mx/webapps/mpp/donar/institution?name=redCross">PayPal Cruz Roja</a></li>
+                    <li><a href="http://topos.red">Topos</a></li>
+                    <li><a href="https://www.mercadolibre.com.mx/mexico-te-necesita">Mexico te necesita</a></li>
+                    <li><a href="https://www.tripadvisor.com.mx/Hotel_Review-g150800-d308512-Reviews-Hostel_Mundo_Joven_Catedral-Mexico_City_Central_Mexico_and_Gulf_Coast.html">Hospedaje para rescatistas</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!--navigation ends-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--banner starts-->
+      <div class="banner-text">
+        <div class="container">
+          <div class="row">
+            <div class="banner-info text-center" style="margin: 10 10">
+              <h2>Ubica los lugares donde se necesita <span class="grey">ayuda</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--banner ends-->
+  </header>
+  <!--header ends-->
+  <font face="Verdana">
+    <div style="margin:0px 0 20 20">
+      <center>
+        <div style="height:500px; width:50px;">
 
-  <div style="width:300px; text-align:center; margin:10px auto;">Verifica el Estado de tu Casa<br /><br />
-       <input style="width:200px; background-color:#606060;color:white;" type="button" value="Facultad de Arquitectura UNAM" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeQEGPjjKVxHN-TEhv3vtmVQWWtdUKmlSdtpsuu15owca6CKw/viewform?c=0&w=1'"/>
-       <input style="width:200px; background-color:#606060;color:white;" type="button" value="Salva Tu Casa" onclick="window.location.href='http://www.salvatucasa.mx'">
-  </div>
+        </div>
+        <h1>Sismo 19 de septiembre</h1> Reportes y Albergues:
+        <div style="display:inline-block;width:20px;height:10px; background-color:black;"></div> Derrumbe
+        <div style="display:inline-block;width:20px;height:10px; background-color:orange;"></div> Daños
+        <div style="display:inline-block;width:20px;height:10px; background-color:rgb(116, 174, 50) ;"></div> Albergue
+        <br>
+        <br> Solicitudes:
+        <div style="display:inline-block;width:20px;height:10px; background-color:rgb(63, 171, 219);"></div> Centro de Acopio y Necesidades in situ
+        <div style="display:inline-block;width:20px;height:10px; background-color:rgb(212, 63, 49);"></div> Se Requieren Voluntarios
+        <div style="display:inline-block;width:20px;height:10px; background-color:white; border:1px solid;;"></div> Hospital
+        <div style="display:inline-block;width:20px;height:10px; background-color:rgb(253, 142, 130) ;"></div> Requiero Revisión de Inmueble
+      </center>
+    </div>
+    <iframe style="display:block;margin:20px auto;" src="{% url 'mapa' %}" height="60%" width="80%"></iframe>
+    <center>Si tienes un <em>reporte o solicitud</em> que hacer (estando tú en la zona) llena esta <input style="width:200px; background-color:rgb(207,26,58);color:white;" type="button" value="Forma" onclick="window.location.href='https://form.jotform.co/72637454207862'"
+      /> </center>
+    <br><br><br>
+    <div style="margin:0px 0">
+      <center>
+        <h1>Mapa de calor de derrumbes y daños graves</h1>
+      </center>
+    </div>
+    <iframe style="display:block;margin:20px auto;" src="{% url 'heatmap' %}" height="60%" width="80%"></iframe>
 
-  <br />
-    </font>
+    <div style="width:300px; text-align:center; margin:10px auto;">Verifica el Estado de tu Casa<br /><br />
+      <input style="width:300px; background-color:#606060;color:white;" type="button" value="Facultad de Arquitectura UNAM" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeQEGPjjKVxHN-TEhv3vtmVQWWtdUKmlSdtpsuu15owca6CKw/viewform?c=0&w=1'"
+      />
+      <input style="width:200px; background-color:#606060;color:white;" type="button" value="Salva Tu Casa" onclick="window.location.href='http://www.salvatucasa.mx'">
+    </div>
+
+    <br />
+  </font>
 </body>
-<img scr='{% static "pulses.png" %}'/>
+<img scr='{% static "pulses.png" %}' />
+<script src="{% static "js/jquery.min.js" %}"></script>
+<script src="{% static "js/bootstrap.min.js" %}"></script>
+<script src="{% static "js/jquery-1.11.3.min.js" %}"></script>
+<script src="{% static "js/jquery-1.9.1.min.js" %}"></script>
+<script src="{% static "js/owl.carousel.js" %}"></script>
+<script src="{% static "js/jquery.mixitup.js" %}" type="text/javascript"></script>
+<script type="text/javascript" src="{% static "js/jquery.quovolver.js" %}"></script>
+<!--for smooth scrolling-->
+<script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+<!--demo-->
+<script>
+  $(document).ready(function() {
+    $("#owl-demo").owlCarousel({
+      autoPlay: 4000,
+      items: 4,
+      itemsDesktop: [1199, 3],
+      itemsDesktopSmall: [979, 3]
+    });
+
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var owl = $("#owl-demo");
+
+    owl.owlCarousel();
+
+    // Custom Navigation Events
+    $(".next").click(function() {
+      owl.trigger('owl.next');
+    })
+    $(".prev").click(function() {
+      owl.trigger('owl.prev');
+    })
+
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+
+    // Instantiate MixItUp:
+
+    $('#Container').mixItUp();
+
+  });
+</script>
+<script>
+  jQuery(function($) {
+    // fancybox
+    $(".fancybox").fancybox({
+      modal: true, // disable regular nav and close buttons
+      // add buttons helper (requires buttons helper js and css files)
+      helpers: {
+        buttons: {}
+      }
+    });
+    // filter selector
+    $(".filter").on("click", function() {
+      var $this = $(this);
+      // if we click the active tab, do nothing
+      if (!$this.hasClass("active")) {
+        $(".filter").removeClass("active");
+        $this.addClass("active"); // set the active tab
+        // get the data-rel value from selected tab and set as filter
+        var $filter = $this.data("rel");
+        // if we select view all, return to initial settings and show all
+        $filter == 'all' ?
+          $(".fancybox")
+          .attr("data-fancybox-group", "gallery")
+          .not(":visible")
+          .fadeIn() : // otherwise
+          $(".fancybox")
+          .fadeOut(0)
+          .filter(function() {
+            // set data-filter value as the data-rel value of selected tab
+            return $(this).data("filter") == $filter;
+          })
+          // set data-fancybox-group and show filtered elements
+          .attr("data-fancybox-group", $filter)
+          .fadeIn(1000);
+      } // if
+    }); // on
+  }); // ready
+</script>
+<!--texitimonial-->
+<script>
+  $('.quotes').quovolver({
+    equalHeight: true
+  });
+</script>
+
 </html>
