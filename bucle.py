@@ -1,26 +1,19 @@
-import subprocess32
-#import subprocess.Popen
+import subprocess as sp
+import datetime as dt
+#while True:
 
-while True:
 
  try:
- 	  output1 = subprocess32.checkoutput("git pull", shell = True, timeout = 3000)
- 	  output2 = subprocess32.checkoutput("git commit -m", shell = True, timeout = 3000)
- 	  output3 = subprocess32.checkoutput("git push", shell = True, timeout = 3000)
-	
- except subprocess32.TimeoutExpired as e:
- 	print e 
 
+      args1 = sp.call("git add mapa.html",shell=True)
+      args2 = sp.call("git commit -m 'autocommit mapa.html' ",shell=True)
+      dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+      args3 = sp.call("git push origin master",shell=True)
 
+      
 
+        delay(3000)
 
- #args1 = [("git"), ("pull") , shell = True, timeout = 3000]
- #args2 = [("git"), ("commit"), ("-m"), shell = True, timeout = 3000]
- #args3 = [("git"), ("push"), shell = True, timeout = 3000]
-
- #task1 = subprocess.Popen(args1)
- #task2 = subprocess.Popen(args2)
- #task3 = subprocess.Popen(args3)
 
 
 
