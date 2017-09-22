@@ -51,22 +51,24 @@ def jot2pondera():
     df.loc[:, 'suc'] = ''
 
     for i, d in df.iterrows():
-        if str(d['tipo'].encode('utf-8')) == 'Acopio':
-            s = 'Se necesita: ' + ' '.join([str(d['acopio'].encode('utf-8')), str(d['necesita'].encode('utf-8'))])
+        s = str(d['timestamp']) + ' '
+        if str(d['tipo'].encode('utf-8')) == 'Acopio o Solicitud in situ':
+            s += 'Se necesita: ' + ' '.join([str(d['acopio'].encode('utf-8')), str(d['necesita'].encode('utf-8'))])
         elif str(d['tipo'].encode('utf-8')) == 'Acopio Hospital':
-            s = 'Se necesita: ' + ' '.join([str(d['hospital']), str(d['necesita'])])
+            s += 'Se necesita: ' + ' '.join([str(d['hospital']), str(d['necesita'])])
         elif str(d['tipo'].encode('utf-8')) == 'Requiero Voluntarios':
-            s = 'Se necesitan ' + str(d['voluntarios']) + \
+            s += 'Se necesitan ' + str(d['voluntarios']) + \
                 ' voluntarios para realizar: ' + str(d['necesita'])
         elif str(d['tipo'].encode('utf-8')) == 'Dar de Alta Albergue':
-            s = str(d['nombre_albergue']) + ' - características: ' + str(d['albergue'])
+            s += str(d['nombre_albergue']) + ' - características: ' + str(d['albergue'])
         elif str(d['tipo'].encode('utf-8')) == 'Dar de Alta Derrumbe':
-            s = '<br>Derrumbe'
+            s += '<br>Derrumbe'
         elif str(d['tipo'].encode('utf-8')) == 'Dar de Alta Daños':
-            s = '<br>Daño'
+            s += '<br>Daño'
         elif str(d['tipo'].encode('utf-8')) == 'Requiero de Revisión en mi Inmueble':
-            s = 'Descripción de daños: ' + str(d['inmueble'])
+            s += 'Descripción de daños: ' + str(d['inmueble'])
         s = s.replace('nan', '')
-        df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s)
-
-    df.to_csv('db_jot.csv',mode = 'w', encoding='utf-8')
+        df.loc[i, 'suc'] = str(df.loc[i, 'suc']).strip(r'\\r') + str(s).strip(r'\\r') + ' ' + str(df.loc[i,'comentario']).strip(r'\\r')
+        print "jot2pondera"
+        print df.loc[i,'suc']
+    df.to_csv('db_jot.csv', encoding='utf-8')
