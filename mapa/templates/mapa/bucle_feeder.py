@@ -37,7 +37,11 @@ if sd == 1:
         print("Till next time...")
         time.sleep(590)
 if sd == 0:
-    print("Getting Survey Data")
+
+    print("Cleaning and Getting Survey Data")
+    sp.call("csvclean db_jot.csv",shell=True)
+    time.sleep(5)
+    sp.call("rm db_jot.csv & mv db_jot_out.csv db_jot.csv",shell=True)
     jot2pondera()
     print("\tDone!")
     time.sleep(5)

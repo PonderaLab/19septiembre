@@ -35,9 +35,10 @@ def jot2pondera():
               u'Sólo si lo necesitas, escribe un breve comentario': str,
               }
     df = pd.read_csv('survey.csv', encoding='utf-8', parse_dates=['Submission Date'], dtype=dtypes,
-                     na_values=[''])
+                     na_values=[''],'rU')
     df.rename(columns=columns, inplace=True)
     df.replace(np.nan, ' ')
+    df.replace('\n','',regex=True)
     cols = ['actividad', 'inmueble', 'acopio', 'hospital', 'necesita',
             'voluntarios', 'albergue', 'comentario']  # , 'nombre_albergue'
     df = df.where((pd.notnull(df)), '')
@@ -68,7 +69,6 @@ def jot2pondera():
         elif str(d['tipo'].encode('utf-8')) == 'Requiero de Revisión en mi Inmueble':
             s += 'Descripción de daños: ' + str(d['inmueble'])
         s = s.replace('nan', '')
-        df.loc[i, 'suc'] = str(df.loc[i, 'suc']).strip(r'\\r') + str(s).strip(r'\\r') + ' ' + str(df.loc[i,'comentario']).strip(r'\\r')
-        print "jot2pondera"
+        df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s) + ' ' + str(df.loc[i,'comentario'])
         print df.loc[i,'suc']
     df.to_csv('db_jot.csv', encoding='utf-8')
