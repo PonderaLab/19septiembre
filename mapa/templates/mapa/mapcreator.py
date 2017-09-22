@@ -85,8 +85,10 @@ def mapcreator():
     # m.add_child(fg_blanco)
     # m.add_child(folium.map.LayerControl())
 
-    tmp_df = pd.read_csv('db_jot.csv', parse_dates=['timestamp'], dtype={
-                         'store_point': str, 'geometry': str}, encoding='utf-8')
+    f = open('db_jot.csv','rU')
+
+    tmp_df = pd.read_csv(f, parse_dates=['timestamp'], dtype={
+                         'store_point': str, 'geometry': str}, encoding='utf-8',engine='python')
 
     tmp_df.store_point = tmp_df.store_point.str.decode('utf-8')
 
