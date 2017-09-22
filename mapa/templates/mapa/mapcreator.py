@@ -3,13 +3,13 @@ from folium.features import CustomIcon
 from shapely.wkt import loads
 import pandas as pd
 import geopandas as gpd
-
+from os.path import exists
 
 tmp_df = pd.read_csv('db_all_db.csv', dtype={
-                     'store_point': str, 'geometry': str})
+                     'store_point': str, 'geometry': str}, encoding='utf-8')
 #tmp_df.geometry = tmp_df.geometry.map(lambda x: loads(x))
 
-
+tmp_df.store_point = tmp_df.store_point.str.decode('utf-8')
 #tmp_df.store_point = tmp_df.store_point.map(lambda x: loads(x))
 #geometry = tmp_df['store_point'].map(loads)
 #tmp_df = tmp_df.drop('store_point', axis=1)
@@ -29,21 +29,21 @@ m = folium.Map(location=c_coords, zoom_start=11)
 
 #logo = CustomIcon('wax_logo.png', icon_size=(20, 20))
 
-for id, r in tmp_df.iterrows():
+for id_, r in tmp_df.iterrows():
     color = 'white'
-    if r['id'] == 'Derrumbe':
+    if r['tipo'] == 'Derrumbe':
         color = 'red'
-    elif r['id'] == 'Dano mayor':
+    elif r['tipo'] == 'Dano mayor':
         color = 'orange'
-    elif r['id'] == 'Danos':
+    elif r['tipo'] == 'Danos':
         color = 'lightred'
-    elif r['id'] == 'Acopio':
+    elif r['tipo'] == 'Acopio':
         color = 'blue'
-    elif r['id'] == 'Albergue':
+    elif r['tipo'] == 'Albergue':
         color = 'green'
-    elif r['id'] == 'AcopioN':
+    elif r['tipo'] == 'AcopioN':
         color = 'black'
-    elif r['id'] == 'Urgente':
+    elif r['tipo'] == 'Urgente':
         color = 'white'
 
     else:
