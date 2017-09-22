@@ -1,11 +1,11 @@
-import subprocess as sp
+import os
 import datetime as dt
 import time
 
 while True:
     s=900
     print("Pulling...")
-    sp.call("python jot2pondera.py", shell=True)
+    os.system("git pull")
     print("\tDone!")
     time.sleep(10)
     print(dt.datetime.now())
