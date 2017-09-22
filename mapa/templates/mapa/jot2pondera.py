@@ -44,7 +44,6 @@ def jot2pondera():
     for i, row in df.iterrows():
         for c in cols:
             if not isinstance(df.loc[i, c], float):
-                print(df.loc[i, c], type(df.loc[i, c]))
                 df.loc[i, c] = ud.unidecode_expect_nonascii(df.loc[i, c])
     df.loc[:, 'lon'] = df.geo.str.extract('(\d+\.\d+).*(-\d+\.\d+)')[1]
     df.loc[:, 'lat'] = df.geo.str.extract('(\d+\.\d+).*(-\d+\.\d+)')[0]
@@ -68,9 +67,6 @@ def jot2pondera():
         elif str(d['tipo'].encode('utf-8')) == 'Requiero de Revisión en mi Inmueble':
             s = 'Descripción de daños: ' + str(d['inmueble'])
         s = s.replace('nan', '')
-        df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s) + 'Comentarios: ' + str(df.loc[i,'comentario'])
+        df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s)
 
     df.to_csv('db_jot.csv',mode = 'w', encoding='utf-8')
-
-if __name__ == '__main__':
-    jot2pondera()
