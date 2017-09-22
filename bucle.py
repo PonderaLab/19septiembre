@@ -8,7 +8,7 @@ while True:
  	  output2 = subprocess32.checkoutput("git commit -m", shell = True, timeout = 3000)
  	  output3 = subprocess32.checkoutput("git push", shell = True, timeout = 3000)
 	
- except subprocess32 as e:
+ except subprocess32.TimeoutExpired as e:
  	print e 
 
 
