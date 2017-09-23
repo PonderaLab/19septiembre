@@ -12,8 +12,6 @@ sd = raw_input("serve (1) or do (0)")
 sd = int(sd)
 if sd == 1:
     while True:
-        print("Get Data Ready...")
-        time.sleep(90)
         print("Getting Survey Data")
         jot2pondera()
         print("\tDone!")
@@ -21,7 +19,7 @@ if sd == 1:
         print("Creating Map...")
         mapcreator()
         print("\tDone!")
-        time.sleep(55)
+        time.sleep(60)
         print("Gitting...")
         print("\tAdd")
         sp.call("git add mapa.html", shell=True)
@@ -37,7 +35,6 @@ if sd == 1:
         print("\t\tDone!")
         print(dt.datetime.now())
         print("Till next time...")
-        time.sleep(200)
 if sd == 0:
 
     #print("Cleaning and Getting Survey Data")
