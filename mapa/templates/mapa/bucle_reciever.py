@@ -3,7 +3,7 @@ import datetime as dt
 import time
 
 while True:
-    s=135
+    s = 20
     print("Pulling...")
     os.system("git pull")
     print("\tDone!")

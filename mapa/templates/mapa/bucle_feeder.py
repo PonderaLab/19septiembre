@@ -7,7 +7,7 @@ from mapcreator import mapcreator
 
 
 
-sd = raw_input("serve (1) or do (0)")
+sd = raw_input("serve (1) or do (0):\n")
 
 sd = int(sd)
 if sd == 1:
@@ -15,16 +15,16 @@ if sd == 1:
         print("Getting Survey Data")
         jot2pondera()
         print("\tDone!")
-        time.sleep(60)
+#        time.sleep(60)
         print("Creating Map...")
         mapcreator()
         print("\tDone!")
-        time.sleep(60)
+#        time.sleep(60)
         print("Gitting...")
         print("\tAdd")
         sp.call("git add mapa.html", shell=True)
         print("\t\tDone!")
-        time.sleep(5)
+#        time.sleep(5)
         print("\tCommit")
         sp.call("git commit -m 'autocommit mapa.html " +
                 dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "' ", shell=True)
