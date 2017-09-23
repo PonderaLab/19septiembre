@@ -5,6 +5,8 @@ import time
 from jot2pondera import jot2pondera
 from mapcreator import mapcreator
 
+
+
 sd = raw_input("serve (1) or do (0)")
 
 sd = int(sd)
@@ -35,11 +37,12 @@ if sd == 1:
         print("\t\tDone!")
         print(dt.datetime.now())
         print("Till next time...")
-        time.sleep(590)
+        time.sleep(200)
 if sd == 0:
 
-    print("Cleaning and Getting Survey Data")
-    sp.call("csvclean db_jot.csv",shell=True)
+    #print("Cleaning and Getting Survey Data")
+    #sp.call("csvclean db_jot.csv",shell=True)
+    print("Getting Data...")
     time.sleep(5)
     sp.call("rm db_jot.csv & mv db_jot_out.csv db_jot.csv",shell=True)
     jot2pondera()

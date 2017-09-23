@@ -85,33 +85,34 @@ def mapcreator():
     # m.add_child(fg_blanco)
     # m.add_child(folium.map.LayerControl())
 
-    f = open('db_jot.csv','rU')
+    f = open('db_jot.csv','r')
 
     tmp_df = pd.read_csv(f, parse_dates=['timestamp'], dtype={
-                         'store_point': str, 'geometry': str}, encoding='utf-8',engine='python')
+                         'store_point': str, 'geometry': str}, encoding='utf-8')
 
     tmp_df.store_point = tmp_df.store_point.str.decode('utf-8')
 
     crs = {'init': 'epsg:4326'}
 
     for id_, r in tmp_df.iterrows():
+        timeinterval = (dt.now() - r['timestamp']).total_seconds() / 3600
         color = 'white'
-        if r['tipo'].encode('utf-8') == 'Acopio':
-            color = 'blue'
+        if r['tipo'].encode('utf-8') == 'Acopio o Solicitud in situ':
+            color = 'red'
             icon = folium.Icon(color=color, icon='none')
-            if (dt.now() - r['timestamp']).total_seconds() / 3600 < 4:
+            if timeinterval < 6:
                 fg_acopio.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Acopio Hospital':
             color = 'white'
             icon = folium.Icon(color=color, icon='none')
-            if (dt.now() - r['timestamp']).total_seconds() / 3600 < 24:
+            if timeinterval < 24:
                 fg_achosp.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Requiero Voluntarios':
             color = 'red'
             icon = folium.Icon(color=color, icon='none')
-            if (dt.now() - r['timestamp']).total_seconds() / 3600 < 4:
+            if timeinterval < 6:
                 fg_reqvol.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Dar de Alta Albergue':

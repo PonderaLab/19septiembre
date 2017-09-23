@@ -4,9 +4,18 @@ import numpy as np
 from os.path import exists
 import unidecode as ud
 from datetime import datetime as dt
+import os
+import wget
 
 
 def jot2pondera():
+
+    #os.rename('survey.csv', 'survey.csv.bak')
+    #with open('survey.csv.bak', 'rU') as infile, open('survey.csv', 'w') as outfile:
+    #    for line in infile:
+    #        outfile.write(line.replace('\r\n',''))
+    #os.remove('survey.csv.bak')
+
     columns = {u'Submission ID': 'id',
                u'Submission Date': 'timestamp',
                u'¿Dónde estás?': 'geo',
@@ -34,8 +43,19 @@ def jot2pondera():
               u'¿Qué ofrece el albergue?': str,
               u'Sólo si lo necesitas, escribe un breve comentario': str,
               }
-    df = pd.read_csv('survey.csv', encoding='utf-8', parse_dates=['Submission Date'], dtype=dtypes,
-                     na_values=[''],'rU')
+
+    url = 'https://www.jotform.com/csv/72647940607059'
+    if os.path.exists('survey.csv'):
+        os.rename('survey.csv','survey.bk')
+    reporte = wget.download(url,'survey.csv')
+    os.rename('survey.csv', 'survey.csv.bak')
+    with open('survey.csv.bak', 'rU') as infile, open('survey.csv', 'w') as outfile:
+       for line in infile:
+           outfile.write(line.replace('\r\n',''))
+    os.remove('survey.csv.bak')
+
+    df = pd.read_csv(reporte, encoding='utf-8', parse_dates=['Submission Date'], dtype=dtypes,
+                     na_values=[''])
     df.rename(columns=columns, inplace=True)
     df.replace(np.nan, ' ')
     df.replace('\n','',regex=True)
@@ -70,5 +90,5 @@ def jot2pondera():
             s += 'Descripción de daños: ' + str(d['inmueble'])
         s = s.replace('nan', '')
         df.loc[i, 'suc'] = str(df.loc[i, 'suc']) + str(s) + ' ' + str(df.loc[i,'comentario'])
-        print df.loc[i,'suc']
+        #print df.loc[i,'suc']
     df.to_csv('db_jot.csv', encoding='utf-8')
