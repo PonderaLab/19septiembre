@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
   <!--header starts-->
   <header class="main-header" style="max-height: 500">
     <div class="backbg-color" style="max-height: 500">
@@ -106,6 +107,7 @@
     <br />
   </font>
 </body>
+
 <img scr='{% static "pulses.png" %}' />
 <script src="{% static "js/jquery.min.js" %}"></script>
 <script src="{% static "js/bootstrap.min.js" %}"></script>
@@ -119,7 +121,6 @@
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
@@ -147,9 +148,30 @@
 
 <script type="text/javascript">
   $(document).ready(function() {
-
     var owl = $("#owl-demo");
-
+    alert("¡Morelos nos necesita!\n"+"Los pueblos de Jojutla, Tetela del Volcán y Zacatepec, en el estado de Morelos, han sido severamente dañados a raíz del sismo de la semana pasada. Más de 13 mil viviendas presentan daños importantes.\n"+
+"Lamentablemente, no hay suficiente gente ni recursos para realizar un censo general de daños que asegure que la ayuda y las indemnizaciones lleguen de manera adecuada y rápida.\n"+
+"Por eso están solicitando ayuda a la comunidad de la UNAM. Se requieren todos los voluntarios posibles y de cualquier formación (no es necesario tener conocimiento o formación de ingeniería) para ir jueves, viernes y sábado (en viajes de ida y vuelta) a levantar toda la información necesaria.\n"+
+"Si te interesa participar, este es el procedimiento:"+
+"1. Registrarte en la Unidad de Comunicación el día de hoy (hasta las 8pm) y mañana (antes de las 11am), para dar tus datos y especificar el día o los días que puedes ir. El transporte será facilitado por el Instituto de Física.\n"+
+"2. En el mismo momento que hagas tu registro, la Unidad Administrativa del IF hará el trámite de seguro de vida.\n"+
+"3. Presentarte en la Sala de Eméritos del Instituto de Física el día de mañana (MIÉRCOLES 27 SEPTIEMBRE) a las 11am para una capacitación sobre cómo hay que hacer la colecta de información.\n"+
+"4. Presentarte el jueves, viernes y/o sábado, a las 7am en el estacionamiento del IF para ir rumbo a Morelos. Calculamos que los autobuses estarán regresando a las 7pm al mismo lugar.\n\n"+
+"Cosas importantes para llevar contigo:\n"+"1. Comida y agua (en las zonas afectadas no hay ningún tipo de servicio)"+
+"2. Cámara fotográfica para hacer el registro visual del daño\n"+
+"3. Gorra, botas o tennis, bloqueador y ropa cómoda para hacer los recorridos\n"+
+"4. Cualquier tipo de ayuda (víveres, ropa) para entregar directamente a las comunidades.\n\n"+
+"Muchas gracias por su apoyo, siéntete libres de difundir este llamado a cualquier otra instancia universitaria.\n"+
+"Más información:\n"+
+"Unidad de Comunicación\n"+
+"Instituto de Física, UNAM\n"+
+"56225000 EXT. 1116\n"+
+"Dr. Manuel Torres Labansat\n"+
+"Director\n"+
+"Instituto de Física UNAM\n"+
+"Tel. 5622-5032   y   5665 7263\n"+
+"torres@fisica.unam.mx\n"+
+"http://www.fisica.unam.mx/");
     owl.owlCarousel();
 
     // Custom Navigation Events
@@ -164,8 +186,8 @@
 </script>
 
 <script type="text/javascript">
-  $(function() {
 
+  $(function() {
     // Instantiate MixItUp:
 
     $('#Container').mixItUp();
@@ -173,6 +195,9 @@
   });
 </script>
 <script>
+
+
+
   jQuery(function($) {
     // fancybox
     $(".fancybox").fancybox({
