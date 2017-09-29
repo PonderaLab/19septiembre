@@ -11,12 +11,12 @@ from folium.map import *
 
 
 def mapcreator():
-    tmp_df = pd.read_csv('db_all_db.csv', dtype={
-                         'store_point': str, 'geometry': str}, encoding='utf-8')
+    #tmp_df = pd.read_csv('db_all_db.csv', dtype={
+    #                     'store_point': str, 'geometry': str}, encoding='utf-8')
 
-    tmp_df.store_point = tmp_df.store_point.str.decode('utf-8')
+    #tmp_df.store_point = tmp_df.store_point.str.decode('utf-8')
 
-    crs = {'init': 'epsg:4326'}
+    #crs = {'init': 'epsg:4326'}
 
     c_coords = (19.006626, -98.801924)
 
@@ -31,49 +31,49 @@ def mapcreator():
     fg_revinm = FeatureGroup(name=u'Requieren revisión de inmueble')
     fg_blanco = FeatureGroup(name='Hospitales')
 
-    for id_, r in tmp_df.iterrows():
-        color = 'white'
-        if r['tipo'].encode('utf-8') == 'Acopio':
-            color = 'blue'
-            icon = folium.Icon(color=color, icon='none')
-            fg_acopio.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
-        elif r['tipo'].encode('utf-8') == 'Acopio Hospital':
-            color = 'white'
-            icon = folium.Icon(color=color, icon='none')
-            fg_achosp.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
-        elif r['tipo'].encode('utf-8') == 'Requiero Voluntarios':
-            color = 'red'
-            icon = folium.Icon(color=color, icon='none')
-            fg_reqvol.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
-        elif r['tipo'].encode('utf-8') == 'Dar de Alta Albergue':
-            color = 'green'
-            icon = folium.Icon(color=color, icon='none')
-            fg_alberg.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
-        elif r['tipo'].encode('utf-8') == 'Dar de Alta Derrumbe':
-            color = 'black'
-            icon = folium.Icon(color=color, icon='none')
-            fg_derrum.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
-        elif r['tipo'].encode('utf-8') == 'Dar de Alta Daños':
-            color = 'orange'
-            icon = folium.Icon(color=color, icon='none')
-            fg_danios.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
-        elif r['tipo'].encode('utf-8') == 'Requiero de Revisión en mi Inmueble':
-            color = 'lightred'
-            icon = folium.Icon(color=color, icon='none')
-            fg_revinm.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
-
-        else:
-            color = 'white'
-            icon = folium.Icon(color=color, icon='none')
-            fg_blanco.add_child(Marker([r['lat'], r['lon']],
-                                       popup=r['suc'].title(), icon=icon))
+    # for id_, r in tmp_df.iterrows():
+    #     color = 'white'
+    #     if r['tipo'].encode('utf-8') == 'Acopio':
+    #         color = 'blue'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_acopio.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
+    #     elif r['tipo'].encode('utf-8') == 'Acopio Hospital':
+    #         color = 'white'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_achosp.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
+    #     elif r['tipo'].encode('utf-8') == 'Requiero Voluntarios':
+    #         color = 'red'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_reqvol.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
+    #     elif r['tipo'].encode('utf-8') == 'Dar de Alta Albergue':
+    #         color = 'green'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_alberg.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
+    #     elif r['tipo'].encode('utf-8') == 'Dar de Alta Derrumbe':
+    #         color = 'black'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_derrum.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
+    #     elif r['tipo'].encode('utf-8') == 'Dar de Alta Daños':
+    #         color = 'orange'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_danios.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
+    #     elif r['tipo'].encode('utf-8') == 'Requiero de Revisión en mi Inmueble':
+    #         color = 'lightred'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_revinm.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
+    #
+    #     else:
+    #         color = 'white'
+    #         icon = folium.Icon(color=color, icon='none')
+    #         fg_blanco.add_child(Marker([r['lat'], r['lon']],
+    #                                    popup=r['suc'].title(), icon=icon))
 
     # m.add_child(fg_acopio)
     # m.add_child(fg_achosp)
