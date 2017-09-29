@@ -93,26 +93,29 @@ def mapcreator():
     tmp_df.store_point = tmp_df.store_point.str.decode('utf-8')
 
     crs = {'init': 'epsg:4326'}
+    print "hola"
+    max_time = 80
 
     for id_, r in tmp_df.iterrows():
+        print r
         timeinterval = (dt.now() - r['timestamp']).total_seconds() / 3600
         color = 'white'
         if r['tipo'].encode('utf-8') == 'Acopio o Solicitud in situ':
             color = 'red'
             icon = folium.Icon(color=color, icon='none')
-            if timeinterval < 80:
+            if timeinterval < max_time:
                 fg_acopio.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Acopio Hospital':
             color = 'white'
             icon = folium.Icon(color=color, icon='none')
-            if timeinterval < 80:
+            if timeinterval < max_time:
                 fg_achosp.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Requiero Voluntarios':
             color = 'red'
             icon = folium.Icon(color=color, icon='none')
-            if timeinterval < 80:
+            if timeinterval < max_time:
                 fg_reqvol.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Dar de Alta Albergue':
@@ -133,7 +136,7 @@ def mapcreator():
         elif r['tipo'].encode('utf-8') == 'Requiero de Revisión en mi Inmueble':
             color = 'lightred'
             icon = folium.Icon(color=color, icon='none')
-            if (dt.now() - r['timestamp']).total_seconds() / 3600 < 80:
+            if (dt.now() - r['timestamp']).total_seconds() / 3600 < max_time:
                 fg_revinm.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
 
