@@ -100,19 +100,19 @@ def mapcreator():
         if r['tipo'].encode('utf-8') == 'Acopio o Solicitud in situ':
             color = 'red'
             icon = folium.Icon(color=color, icon='none')
-            if timeinterval < 6:
+            if timeinterval < 80:
                 fg_acopio.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Acopio Hospital':
             color = 'white'
             icon = folium.Icon(color=color, icon='none')
-            if timeinterval < 24:
+            if timeinterval < 80:
                 fg_achosp.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Requiero Voluntarios':
             color = 'red'
             icon = folium.Icon(color=color, icon='none')
-            if timeinterval < 6:
+            if timeinterval < 80:
                 fg_reqvol.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
         elif r['tipo'].encode('utf-8') == 'Dar de Alta Albergue':
@@ -133,7 +133,7 @@ def mapcreator():
         elif r['tipo'].encode('utf-8') == 'Requiero de Revisión en mi Inmueble':
             color = 'lightred'
             icon = folium.Icon(color=color, icon='none')
-            if (dt.now() - r['timestamp']).total_seconds() / 3600 < 12:
+            if (dt.now() - r['timestamp']).total_seconds() / 3600 < 80:
                 fg_revinm.add_child(Marker([r['lat'], r['lon']],
                                            popup=r['suc'].title(), icon=icon))
 
